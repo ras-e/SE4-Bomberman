@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGICommon/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGICommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGICommon/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/resources/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGICommonEnemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonEnemy/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGICommonEnemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonEnemy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGICommonEnemy/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonEnemy/src/main/resources/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGIEnemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGIEnemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGIEnemy/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/resources/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/resources/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/OSGiPlayer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiPlayer/target/classes/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +67,7 @@
       <workItem from="1648032576253" duration="571000" />
       <workItem from="1648061940734" duration="5397000" />
       <workItem from="1648068869398" duration="7009000" />
+      <workItem from="1648077171980" duration="24000" />
     </task>
     <servers />
   </component>

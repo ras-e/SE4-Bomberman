@@ -55,7 +55,6 @@
     <module>OSGiEnemy</module>
     <module>OSGiBomb</module>
     <module>OSGiCommonBomb</module>
-    <module>OSGiPlayer</module>
   </modules>
 
   <build>
