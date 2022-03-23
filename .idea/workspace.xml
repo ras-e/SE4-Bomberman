@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bomberman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiLibGDX/OSGiLibGDX.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGIEnemy/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGIEnemy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/bomberman/enemy/ExampleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/bomberman/enemy/internal/ExampleActivator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/bomberman/enemy/internal/ExampleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGIEnemy/src/main/resources/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGICommon/target/OSGICommon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OSGICommon/target/OSGICommon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGICommon/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/OSGICommon/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGICommonEnemy/target/OSGICommonEnemy-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OSGICommonEnemy/target/OSGICommonEnemy-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGICommonEnemy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/OSGICommonEnemy/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGIEnemy/osgi.bnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGIEnemy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGIEnemy/src/main/resources/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGIEnemy/target/OSGIEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGIEnemy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGIEnemy/target/classes/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/OSGiLibGDX-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiLibGDX/target/OSGiLibGDX-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiLibGDX/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poms/compiled/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/compiled/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2954023" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
@@ -67,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648032571097</updated>
       <workItem from="1648032576253" duration="571000" />
-      <workItem from="1648061940734" duration="4793000" />
+      <workItem from="1648061940734" duration="5397000" />
     </task>
     <servers />
   </component>
