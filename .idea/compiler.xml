@@ -12,6 +12,9 @@
         <module name="OSGiCommonEnemy" />
         <module name="OSGiPlayer" />
         <module name="OSGiBomb" />
+        <module name="OSGIEnemy" />
+        <module name="OSGICommon" />
+        <module name="OSGICommonEnemy" />
         <module name="OSGiLibGDX" />
         <module name="OSGiCommon" />
       </profile>
