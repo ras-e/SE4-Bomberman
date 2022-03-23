@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OSGICommon" />
-        <module name="OSGIEnemy" />
-        <module name="OSGICommonEnemy" />
-        <module name="OSGiLibGDX" />
+        <module name="OSGiCommonBomb" />
+        <module name="OSGiEnemy" />
         <module name="Enemy" />
+        <module name="OSGiCommonEnemy" />
+        <module name="OSGiPlayer" />
+        <module name="OSGiBomb" />
+        <module name="OSGiLibGDX" />
+        <module name="OSGiCommon" />
       </profile>
     </annotationProcessing>
   </component>

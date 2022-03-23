@@ -50,9 +50,12 @@
     <module>poms</module>
     <module>provision</module>
     <module>OSGiLibGDX</module>
-    <module>OSGICommonEnemy</module>
-    <module>OSGICommon</module>
-    <module>OSGIEnemy</module>
+    <module>OSGiCommonEnemy</module>
+    <module>OSGiCommon</module>
+    <module>OSGiEnemy</module>
+    <module>OSGiBomb</module>
+    <module>OSGiCommonBomb</module>
+    <module>OSGiPlayer</module>
   </modules>
 
   <build>

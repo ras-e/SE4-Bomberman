@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="Osmorc" url="file://$PROJECT_DIR$/OSGICommonEnemy" />
-    <file type="Osmorc" url="file://$PROJECT_DIR$/OSGIEnemy" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/OSGiCommonEnemy" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/OSGiEnemy" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/OSGiLibGDX" />
   </component>
   <component name="MavenProjectsManager">
