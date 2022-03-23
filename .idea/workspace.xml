@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0555953-389d-4693-a31c-67aac862181e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SE4-Bomberman.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/compiled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/gdx-setup.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/LargeMap.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Plain.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Shadow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/badlogic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/jens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/newMap.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/outs_by_adventureraldo_dey953t.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/plain.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/shadow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/core/src/com/mygdx/game/GDXmain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/desktop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/desktop/src/com/mygdx/game/DesktopLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/poms/wrappers/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/provision/pom.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26mbDb6JItl3h77n3gtXDgQOjsC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0555953-389d-4693-a31c-67aac862181e" name="Changes" comment="" />
+      <created>1648031595380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648031595380</updated>
+      <workItem from="1648031605188" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
