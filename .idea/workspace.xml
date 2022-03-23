@@ -4,46 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0555953-389d-4693-a31c-67aac862181e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/SE4-Bomberman.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_backend_lwjgl_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_box2d_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_box2d_platform_natives_desktop_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_freetype_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_freetype_platform_natives_desktop_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_jnigen_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_platform_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_gdx_gdx_platform_natives_desktop_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_badlogicgames_jlayer_jlayer_1_0_1_gdx.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_diffplug_osgi_com_diffplug_osgi_extension_sun_misc_0_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_diffplug_osgi_com_diffplug_osgi_extension_sun_reflect_0_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_javaparser_javaparser_1_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_2_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_linux_2_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_osx_2_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jinput_jinput_platform_natives_windows_2_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_jutils_jutils_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jcraft_jorbis_0_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_linux_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_osx_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_platform_natives_windows_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lwjgl_lwjgl_lwjgl_util_2_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_core_4_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/compiled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/gdx-setup.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/LargeMap.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Plain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Plain.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/[64x64] Dungeon Bricks Shadow.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/badlogic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/jens.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/newMap.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/outs_by_adventureraldo_dey953t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/plain.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/assets/shadow.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/core/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/core/src/com/mygdx/game/GDXmain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/desktop/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/desktop/src/com/mygdx/game/DesktopLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/libgdxwrapper/test/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/poms/wrappers/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/provision/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/OSGiLibGDX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiLibGDX/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/OSGiLibGDX-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiLibGDX/target/OSGiLibGDX-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/compiled/compiled-bundle-settings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/compiled/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/compiled/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/libgdxwrapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/libgdxwrapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/shared-plugin-settings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/wrappers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/wrappers/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/wrappers/wrapper-bundle-settings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provision/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provision/provision.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="26mbDb6JItl3h77n3gtXDgQOjsC" />
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="26mdBmTd4iUBZWZUUFVN2pqQvTC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,12 +85,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a0555953-389d-4693-a31c-67aac862181e" name="Changes" comment="" />
-      <created>1648031595380</created>
+      <changelist id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="" />
+      <created>1648032571097</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648031595380</updated>
-      <workItem from="1648031605188" duration="63000" />
+      <updated>1648032571097</updated>
+      <workItem from="1648032576253" duration="571000" />
     </task>
     <servers />
   </component>
