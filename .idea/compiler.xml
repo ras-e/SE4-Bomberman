@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="OSGiCommonBomb" />
         <module name="OSGiEnemy" />
+        <module name="OSGiCore" />
         <module name="Enemy" />
         <module name="OSGiCommonEnemy" />
         <module name="OSGiPlayer" />
@@ -19,5 +20,8 @@
         <module name="OSGiCommon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dk.sdu.mmmi.bomberman.OSGiMap" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

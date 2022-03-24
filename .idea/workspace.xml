@@ -5,34 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/OSGiCore/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/dk.sdu.mmmi.bomberman.OSGiBomb-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/OSGiCommon-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/OSGiCommonBomb-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/OSGiCommonEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/OSGiEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/OSGiLibGDX-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,6 +74,7 @@
       <workItem from="1648068869398" duration="7009000" />
       <workItem from="1648077171980" duration="24000" />
       <workItem from="1648078597701" duration="684000" />
+      <workItem from="1648150282395" duration="288000" />
     </task>
     <servers />
   </component>
@@ -103,6 +94,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
