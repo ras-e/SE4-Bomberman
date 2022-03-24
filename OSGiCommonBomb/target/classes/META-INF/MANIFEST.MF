@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1648152304338
+Build-Jdk: 1.8.0_322
+Built-By: rasmu
+Bundle-Activator: dk.sdu.mmmi.bomberman.internal.ExampleActivator
+Bundle-Description: Generated using Pax-Construct
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGiCommonBomb
+Bundle-SymbolicName: dk.sdu.mmmi.bomberman.OSGiCommonBomb
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: dk.sdu.mmmi.bomberman.internal
+Tool: Bnd-3.0.0.201509101326

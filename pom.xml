@@ -57,6 +57,9 @@
     <module>OSGiCommonBomb</module>
     <module>OSGiPlayer</module>
     <module>OSGiCore</module>
+    <module>OSGiAI</module>
+    <module>OSGiPathfinder</module>
+    <module>OSGiCommonAI</module>
   </modules>
 
   <build>
