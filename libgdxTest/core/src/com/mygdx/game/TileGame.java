@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.bomberman.OSGiCore;
+package com.mygdx.game;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
