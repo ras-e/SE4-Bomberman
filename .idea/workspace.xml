@@ -5,30 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/target/dk.sdu.mmmi.bomberman.OSGiAI-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/OSGiBomb-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/OSGiCommon-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/dk.sdu.mmmi.bomberman.OSGiCommonAI-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/OSGiCommonBomb-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/OSGiCommonEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/target/dk.sdu.mmmi.bomberman.OSGiCore-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/OSGiEnemy-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/OSGiLibGDX-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/dk.sdu.mmmi.bomberman.OSGiPathfinder-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/OSGiPlayer-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/classes/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/target/classes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiAI/OSGiAI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonAI/OSGiCommonAI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCore/src/main/resources/META-INF/core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiPathfinder/OSGiPathfinder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiAI/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiAI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiAI/ExampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleActivator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/dk/sdu/mmmi/bomberman/OSGiAI/ExampleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/dk/sdu/mmmi/bomberman/common/data/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/dk/sdu/mmmi/bomberman/common/services/IGamePluginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonAI/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonAI/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonAI/ExampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleActivator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/dk/sdu/mmmi/bomberman/OSGiCommonAI/ExampleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/OSGiCore/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/OSGiCore/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/target/classes/dk/sdu/mmmi/bomberman/OSGiCore/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiLibGDX/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPathfinder/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPathfinder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/src/main/java/dk/sdu/mmmi/bomberman/OSGiPathfinder/ExampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/src/main/java/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleActivator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/src/main/java/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/dk/sdu/mmmi/bomberman/OSGiPathfinder/ExampleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleActivator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/classes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poms/libgdxwrapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/libgdxwrapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provision/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +72,37 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Movementbranch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1648202067" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Movementbranch" />
+                    <option name="lastUsedInstant" value="1648202002" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,25 +110,32 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="26mdBmTd4iUBZWZUUFVN2pqQvTC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/OSGICommon/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2954023" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="xml.defaultSchemas" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitProjects\SE4-Bomberman\OSGiCore\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
