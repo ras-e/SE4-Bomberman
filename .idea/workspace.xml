@@ -5,58 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OSGiAI/OSGiAI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonAI/OSGiCommonAI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCore/src/main/resources/META-INF/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiPathfinder/OSGiPathfinder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiAI/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiAI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiAI/ExampleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleActivator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/dk/sdu/mmmi/bomberman/OSGiAI/ExampleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleActivator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/dk/sdu/mmmi/bomberman/OSGiAI/internal/ExampleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiAI/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/dk/sdu/mmmi/bomberman/common/data/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/dk/sdu/mmmi/bomberman/common/services/IGamePluginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonAI/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonAI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonAI/ExampleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleActivator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/dk/sdu/mmmi/bomberman/OSGiCommonAI/ExampleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleActivator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/dk/sdu/mmmi/bomberman/OSGiCommonAI/internal/ExampleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonAI/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/OSGiCore/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/OSGiCore/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/target/classes/dk/sdu/mmmi/bomberman/OSGiCore/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiLibGDX/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiLibGDX/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPathfinder/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPathfinder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/src/main/java/dk/sdu/mmmi/bomberman/OSGiPathfinder/ExampleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/src/main/java/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleActivator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/src/main/java/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/dk/sdu/mmmi/bomberman/OSGiPathfinder/ExampleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleActivator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/dk/sdu/mmmi/bomberman/OSGiPathfinder/internal/ExampleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPathfinder/target/classes/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/target/classes/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/poms/libgdxwrapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poms/libgdxwrapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provision/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/1533379115.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/1533379115.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.Bomberman.build.OSGiLibGDX_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.Bomberman.build.OSGiLibGDX_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonBomb_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonBomb_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonEnemy_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonEnemy_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiEnemy_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiEnemy_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiPlayer_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.bomb_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.bomb_1.0.0.SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

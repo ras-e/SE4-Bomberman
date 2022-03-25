@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="13" height="11" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="28">
+ <tileset firstgid="1" source="shadow.tsx"/>
+ <tileset firstgid="57" source="plain.tsx"/>
+ <layer id="1" name="background" width="13" height="11">
+  <data encoding="csv">
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10
+</data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="3" x="130" y="128" width="59" height="62"/>
+  <object id="4" x="255" y="131" width="64" height="59"/>
+  <object id="5" x="385" y="131" width="62" height="56"/>
+  <object id="6" x="514" y="131" width="62" height="60"/>
+  <object id="8" x="641" y="130" width="63" height="60"/>
+  <object id="9" x="126" y="260" width="65" height="60"/>
+  <object id="10" x="258" y="259" width="64" height="60"/>
+  <object id="11" x="384" y="258" width="64" height="61"/>
+  <object id="12" x="513" y="260" width="62" height="59"/>
+  <object id="13" x="643" y="258" width="59" height="62"/>
+  <object id="14" x="641" y="385" width="60" height="61"/>
+  <object id="15" x="513" y="388" width="62" height="55"/>
+  <object id="16" x="386" y="387" width="61" height="58"/>
+  <object id="17" x="257" y="385" width="61" height="61"/>
+  <object id="18" x="127" y="387" width="63" height="60"/>
+  <object id="19" x="130" y="512" width="61" height="64"/>
+  <object id="20" x="257" y="513" width="62" height="63"/>
+  <object id="21" x="387" y="516" width="62" height="60"/>
+  <object id="22" x="508" y="515" width="69" height="62"/>
+  <object id="23" x="643" y="516" width="61" height="59"/>
+  <object id="24" x="-1" y="2" width="63" height="700"/>
+  <object id="25" x="64" y="643" width="768" height="61"/>
+  <object id="26" x="770" y="3" width="63" height="636"/>
+  <object id="27" x="63" y="2" width="706" height="62"/>
+ </objectgroup>
+ <layer id="3" name="foreground" width="13" height="11">
+  <data encoding="csv">
+66,66,66,66,66,66,66,66,66,66,66,66,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,10,0,0,0,0,0,0,0,0,0,0,66,
+66,66,66,66,66,66,66,66,66,66,66,66,66
+</data>
+ </layer>
+</map>

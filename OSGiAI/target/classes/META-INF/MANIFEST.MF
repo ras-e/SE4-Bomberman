@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1648208599522
+Build-Jdk: 1.8.0_312
+Built-By: rasmu
+Bundle-Description: Generated using Pax-Construct
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGiAI
+Bundle-SymbolicName: dk.sdu.mmmi.bomberman.OSGiAI
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-3.0.0.201509101326
