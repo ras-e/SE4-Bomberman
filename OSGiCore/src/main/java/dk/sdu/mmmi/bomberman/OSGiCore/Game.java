@@ -1,6 +1,7 @@
 package dk.sdu.mmmi.bomberman.OSGiCore;
 
 import com.badlogic.gdx.*;
+import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -100,4 +101,3 @@ public class Game implements ApplicationListener {
     public void resize(int width, int height) {
     }
 }
-

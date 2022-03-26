@@ -3,7 +3,7 @@ Bundle-Description: Generated using Pax-Construct
 Bundle-SymbolicName: dk.sdu.mmmi.bomberman.Bomberman.build.OSGiLibGDX
 Built-By: rasmu
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1648208591472
+Bnd-LastModified: 1648253760786
 Embed-Dependency: *
 Import-Package: com.badlogic.gdx,com.badlogic.gdx.assets,com.badlogic.
  gdx.assets.loaders,com.badlogic.gdx.assets.loaders.resolvers,com.badl
@@ -36,9 +36,9 @@ Import-Package: com.badlogic.gdx,com.badlogic.gdx.assets,com.badlogic.
  ls,com.badlogic.gdx.utils.async,com.badlogic.gdx.utils.compression,co
  m.badlogic.gdx.utils.compression.lz,com.badlogic.gdx.utils.compressio
  n.lzma,com.badlogic.gdx.utils.compression.rangecoder,com.badlogic.gdx
- .utils.reflect,com.badlogic.gdx.utils.viewport,com.sun.media.sound,ja
- vax.sound.sampled,javax.swing,javax.swing.border,javax.swing.event,ja
- vax.swing.text,sun.misc,sun.reflect
+ .utils.reflect,com.badlogic.gdx.utils.viewport,javax.sound.sampled,ja
+ vax.swing,javax.swing.border,javax.swing.event,javax.swing.text,sun.m
+ isc,sun.reflect
 Tool: Bnd-0.0.255
 Export-Package: com.badlogic.gdx.graphics.g3d.particles;uses:="com.bad
  logic.gdx.assets.loaders,com.badlogic.gdx.graphics.g3d.attributes,com
@@ -207,17 +207,17 @@ Export-Package: com.badlogic.gdx.graphics.g3d.particles;uses:="com.bad
  gdx.jnigen.test;uses:="com.badlogic.gdx.jnigen"
 Bundle-Version: 1.0.0.SNAPSHOT
 Bundle-Name: OSGiLibGDX
-Bundle-ClassPath: .,gdx-platform-1.5.0.jar,lwjgl-2.9.1.jar,jinput-2.0.
- 5.jar,lwjgl-platform-2.9.1-natives-windows.jar,jlayer-1.0.1-gdx.jar,g
- dx-freetype-1.5.0.jar,gdx-box2d-1.5.0.jar,jinput-platform-2.0.5-nativ
- es-windows.jar,lwjgl_util-2.9.1.jar,lwjgl-platform-2.9.1-natives-linu
- x.jar,jutils-1.0.0.jar,jinput-platform-2.0.5-natives-osx.jar,gdx-free
- type-platform-1.5.0-natives-desktop.jar,com.diffplug.osgi.extension.s
- un.misc-0.0.0.jar,gdx-1.5.0.jar,com.diffplug.osgi.extension.sun.refle
- ct-0.0.0.jar,jorbis-0.0.17.jar,jinput-platform-2.0.5-natives-linux.ja
- r,gdx-platform-1.5.0-natives-desktop.jar,javaparser-1.0.8.jar,gdx-bac
- kend-lwjgl-1.5.0.jar,lwjgl-platform-2.9.1-natives-osx.jar,gdx-jnigen-
- 1.5.0.jar
+Bundle-ClassPath: .,lwjgl-2.9.1.jar,gdx-platform-1.5.0.jar,gdx-box2d-p
+ latform-1.5.0-natives-desktop.jar,jinput-2.0.5.jar,lwjgl-platform-2.9
+ .1-natives-windows.jar,jlayer-1.0.1-gdx.jar,gdx-freetype-1.5.0.jar,gd
+ x-box2d-1.5.0.jar,jinput-platform-2.0.5-natives-windows.jar,lwjgl_uti
+ l-2.9.1.jar,lwjgl-platform-2.9.1-natives-linux.jar,jutils-1.0.0.jar,j
+ input-platform-2.0.5-natives-osx.jar,gdx-freetype-platform-1.5.0-nati
+ ves-desktop.jar,com.diffplug.osgi.extension.sun.misc-0.0.0.jar,gdx-1.
+ 5.0.jar,com.diffplug.osgi.extension.sun.reflect-0.0.0.jar,jorbis-0.0.
+ 17.jar,jinput-platform-2.0.5-natives-linux.jar,gdx-platform-1.5.0-nat
+ ives-desktop.jar,javaparser-1.0.8.jar,gdx-backend-lwjgl-1.5.0.jar,lwj
+ gl-platform-2.9.1-natives-osx.jar,gdx-jnigen-1.5.0.jar
 Private-Package: com.badlogic,com.jcraft.jogg,com.jcraft.jorbis,japa.p
  arser,japa.parser.ast,japa.parser.ast.body,japa.parser.ast.expr,japa.
  parser.ast.stmt,japa.parser.ast.type,japa.parser.ast.visitor,javazoom
@@ -228,8 +228,9 @@ Private-Package: com.badlogic,com.jcraft.jogg,com.jcraft.jorbis,japa.p
  il.input,org.lwjgl.util.jinput,org.lwjgl.util.mapped,org.lwjgl.util.v
  ector
 Ignore-Package: org.objectweb.asm.util,org.objectweb.asm.tree.analysis
- ,com.apple.eio,org.objectweb.asm,org.objectweb.asm.tree
+ ,com.apple.eio,org.objectweb.asm,com.sun.media.sound,org.objectweb.as
+ m.tree
 Embed-Transitive: true
 Created-By: Apache Maven Bundle Plugin
-Build-Jdk: 1.8.0_312
+Build-Jdk: 1.8.0_322
 

@@ -1,11 +1,11 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1648208599036
-Build-Jdk: 1.8.0_312
+Bnd-LastModified: 1648253762631
+Build-Jdk: 1.8.0_322
 Built-By: rasmu
 Bundle-Description: Generated using Pax-Construct
 Bundle-ManifestVersion: 2
 Bundle-Name: OSGiCore
-Bundle-SymbolicName: dk.sdu.mmmi.bomberman.OSGiCore
+Bundle-SymbolicName: OSGiCore
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: dk.sdu.mmmi.bomberman.OSGiCore;version="1.0.0.SNAPSHOT";

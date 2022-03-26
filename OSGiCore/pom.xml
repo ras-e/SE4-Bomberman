@@ -33,20 +33,16 @@
     -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>osgi_R4_core</artifactId>
+      <artifactId>org.osgi.core</artifactId>
+      <scope>provided</scope>
       <optional>true</optional>
+      <version>4.3.0</version>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>osgi_R4_compendium</artifactId>
       <optional>true</optional>
     </dependency>
-      <dependency>
-          <groupId>com.badlogicgames.gdx</groupId>
-          <artifactId>gdx</artifactId>
-          <version>1.5.0</version>
-          <scope>compile</scope>
-      </dependency>
   <dependency>
     <groupId>${project.groupId}</groupId>
     <artifactId>OSGiLibGDX</artifactId>

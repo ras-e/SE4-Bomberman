@@ -19,6 +19,7 @@
   <modules>
     <module>wrappers</module>
     <module>compiled</module>
+    <module>libgdxwrapper</module>
   </modules>
 
   <build>
