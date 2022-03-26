@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="dk.sdu.mmmi.bomberman.OSGiCore.Game">
-    <implementation class="dk.sdu.mmmi.bomberman.OSGiCore.Game"/>
+    <implementation class="dk.sdu.mmmi.bomberman.Game"/>
 
 </scr:component>

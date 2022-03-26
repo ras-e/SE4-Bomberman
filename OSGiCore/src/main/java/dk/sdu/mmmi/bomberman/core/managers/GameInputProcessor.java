@@ -1,12 +1,12 @@
-package dk.sdu.mmmi.cbse.core.managers;
+package dk.sdu.mmmi.bomberman.core.managers;
 
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
-import dk.sdu.mmmi.cbse.common.data.GameData;
-import dk.sdu.mmmi.cbse.common.data.GameKeys;
+import dk.sdu.mmmi.bomberman.common.data.GameData;
+import dk.sdu.mmmi.bomberman.common.data.GameKeys;
 
 public class GameInputProcessor extends InputAdapter {
-    \
+
     private final GameData gameData;
 
     public GameInputProcessor(GameData gameData) {
@@ -68,4 +68,5 @@ public class GameInputProcessor extends InputAdapter {
         }
         return true;
     }
+
 }

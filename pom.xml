@@ -60,6 +60,7 @@
     <module>OSGiPathfinder</module>
     <module>OSGiCommonAI</module>
     <module>OSGiLibGDX</module>
+    <module>OSGiCollision</module>
   </modules>
 
   <build>

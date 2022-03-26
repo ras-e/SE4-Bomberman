@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="OSGiEnemy" />
+        <module name="OSGiCollision" />
         <module name="OSGiCommonEnemy" />
         <module name="OSGiCommonAI" />
         <module name="OSGiPathfinder" />

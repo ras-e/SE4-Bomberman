@@ -9,15 +9,15 @@
   </parent>
 
   <properties>
-    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiCore</bundle.symbolicName>
+    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiCollision</bundle.symbolicName>
     <bundle.namespace>dk.sdu.mmmi.bomberman</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>OSGiCore</artifactId>
+  <artifactId>OSGiCollision</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>OSGiCore</name>
+  <name>OSGiCollision</name>
 
   <packaging>bundle</packaging>
 
@@ -33,27 +33,14 @@
     -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.core</artifactId>
-      <scope>provided</scope>
+      <artifactId>osgi_R4_core</artifactId>
       <optional>true</optional>
-      <version>4.3.0</version>
     </dependency>
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>osgi_R4_compendium</artifactId>
       <optional>true</optional>
     </dependency>
-  <dependency>
-    <groupId>${project.groupId}</groupId>
-    <artifactId>OSGiLibGDX</artifactId>
-    <version>${project.version}</version>
-  </dependency>
-      <dependency>
-          <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-          <artifactId>OSGiCommon</artifactId>
-          <version>1.0-SNAPSHOT</version>
-          <scope>compile</scope>
-      </dependency>
   </dependencies>
 
 </project>
