@@ -1,6 +1,8 @@
 package dk.sdu.mmmi.bomberman.common.data;
 
 import dk.sdu.mmmi.bomberman.common.events.Event;
+import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -12,6 +14,8 @@ public class GameData {
     private int displayHeight;
     private final GameKeys keys = new GameKeys();
     private List<Event> events = new CopyOnWriteArrayList<>();
+    private List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
+
 
     public void addEvent(Event e) {
         events.add(e);
@@ -51,6 +55,10 @@ public class GameData {
 
     public int getDisplayHeight() {
         return displayHeight;
+    }
+
+    public List<IGamePluginService> getGamePlugins() {
+        return this.gamePluginList;
     }
 
     public <E extends Event> List<Event> getEvents(Class<E> type, String sourceID) {

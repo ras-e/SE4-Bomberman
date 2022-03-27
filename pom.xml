@@ -61,6 +61,7 @@
     <module>OSGiCommonAI</module>
     <module>OSGiLibGDX</module>
     <module>OSGiCollision</module>
+    <module>dk.sdu.mmmi.bomberman.OSGiCommonPlayer</module>
   </modules>
 
   <build>
