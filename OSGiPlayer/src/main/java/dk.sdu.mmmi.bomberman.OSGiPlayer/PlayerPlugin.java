@@ -1,6 +1,8 @@
 package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import dk.sdu.mmmi.bomberman.OSGiCommonPlayer.Player;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
@@ -10,6 +12,7 @@ import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 public class PlayerPlugin implements IGamePluginService {
     private Texture playerAvatar;
     private String entityID;
+    private SpriteBatch batch;
 
     @Override
     public void start(GameData gameData, World world) {
@@ -28,6 +31,6 @@ public class PlayerPlugin implements IGamePluginService {
 
     @Override
     public void stop(GameData gameData, World world) {
-
+        world.removeEntity(entityID);
     }
 }

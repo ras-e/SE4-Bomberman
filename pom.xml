@@ -62,6 +62,8 @@
     <module>OSGiLibGDX</module>
     <module>OSGiCollision</module>
     <module>dk.sdu.mmmi.bomberman.OSGiCommonPlayer</module>
+    <module>dk.sdu.mmmi.bomberman.OSGiMap</module>
+    <module>dk.sdu.mmmi.bomberman.OSGiCommonMap</module>
   </modules>
 
   <build>
