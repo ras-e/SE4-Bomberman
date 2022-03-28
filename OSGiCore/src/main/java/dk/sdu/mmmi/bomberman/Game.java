@@ -9,8 +9,21 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.maps.tiled.*;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import dk.sdu.mmmi.bomberman.common.data.GameData;
+import dk.sdu.mmmi.bomberman.common.data.World;
+import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
+import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Game implements ApplicationListener {
+
+    private final GameData gameData = new GameData();
+    private static World world = new World();
+    private final List<IEntityProcessingService> entityProcessorList = new CopyOnWriteArrayList<>();
+    private final List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
+    private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
 
     /*
     TiledMap tiledMap;
@@ -30,7 +43,7 @@ public class Game implements ApplicationListener {
 
     public void init() {
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
-        cfg.title = "Asteroids";
+        cfg.title = "Bomberman";
         cfg.width = 800;
         cfg.height = 600;
         cfg.resizable = false;
@@ -102,5 +115,32 @@ public class Game implements ApplicationListener {
 
     @Override
     public void resize(int width, int height) {
+    }
+
+    public void addEntityProcessingService(IEntityProcessingService eps) {
+        this.entityProcessorList.add(eps);
+    }
+
+    public void removeEntityProcessingService(IEntityProcessingService eps) {
+        this.entityProcessorList.remove(eps);
+    }
+
+    public void addPostEntityProcessingService(IPostEntityProcessingService eps) {
+        postEntityProcessorList.add(eps);
+    }
+
+    public void removePostEntityProcessingService(IPostEntityProcessingService eps) {
+        postEntityProcessorList.remove(eps);
+    }
+
+    public void addGamePluginService(IGamePluginService plugin) {
+        this.gamePluginList.add(plugin);
+        plugin.start(gameData, world);
+
+    }
+
+    public void removeGamePluginService(IGamePluginService plugin) {
+        this.gamePluginList.remove(plugin);
+        plugin.stop(gameData, world);
     }
 }
