@@ -7,8 +7,12 @@ import dk.sdu.mmmi.bomberman.common.data.GameData;
 
 public class MovingPart implements EntityPart {
 
-        private float delta = Gdx.graphics.getDeltaTime();
-        private float speed;
+    private float delta = Gdx.graphics.getDeltaTime();
+    private float speed;
+
+    public MovingPart(float speed){
+        this.speed = speed;
+    }
 
     @Override
     public void process(GameData gameData, Entity entity) {
