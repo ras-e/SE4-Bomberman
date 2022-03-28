@@ -42,7 +42,7 @@ public class Game implements ApplicationListener {
     @Override
     public void create() {
        cam = new OrthographicCamera();
-       cam.setToOrtho(false, 1470, 1340);
+       cam.setToOrtho(false, 832, 704);
        cam.update();
        tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
@@ -54,11 +54,9 @@ public class Game implements ApplicationListener {
     public void render() {
        renderer.setView(cam);
        renderer.render();
-       renderer.getBatch().begin();
        batch.begin();
-       batch.draw(texture,32,32,55,55);
+       batch.draw(texture,64,64,64,64);
        cam.update();
-       renderer.getBatch().end();
        batch.end();
 
     }
