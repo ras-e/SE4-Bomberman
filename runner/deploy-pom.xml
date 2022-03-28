@@ -156,7 +156,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman</groupId>
+      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
       <artifactId>dk.sdu.mmmi.bomberman.OSGiMap</artifactId>
       <version>1.0-SNAPSHOT</version>
       <type>bundle</type>

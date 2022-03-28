@@ -42,6 +42,7 @@ public class Game implements ApplicationListener {
     @Override
     public void create() {
        cam = new OrthographicCamera();
+       //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
        cam.setToOrtho(false, 832, 704);
        cam.update();
        tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
