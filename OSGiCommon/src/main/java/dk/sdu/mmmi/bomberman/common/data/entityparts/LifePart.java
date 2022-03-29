@@ -34,6 +34,7 @@ public class LifePart implements EntityPart{
 
     @Override
     public void process(GameData gameData, Entity entity) {
+        //When hit 1 life is retracted from total life points and kills the entity when life is <= 0
         if (isHit) {
             life =- 1;
             isHit = false;

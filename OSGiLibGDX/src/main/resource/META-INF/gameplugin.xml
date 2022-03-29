@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="ddk.sdu.mmmi.bomberman.OSGiMap.MapPlugin">
+<implementation class="dk.sdu.mmmi.bomberman.OSGiMap.MapPlugin"/>
+<service>
+    <provide interface="dk.sdu.mmmi.bomberman.common.services.IGamePluginService"/>
+</service>
+</scr:component>

@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OSGiLibGDX/src/main/resource/META-INF/gameplugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/resources/META-INF/gameplugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/LifePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/LifePart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/PositionPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/PositionPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/resources/jens.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -132,7 +138,8 @@
       <workItem from="1648310784682" duration="3044000" />
       <workItem from="1648387236814" duration="928000" />
       <workItem from="1648391166357" duration="10851000" />
-      <workItem from="1648447580365" duration="15298000" />
+      <workItem from="1648447580365" duration="16329000" />
+      <workItem from="1648542536144" duration="3558000" />
     </task>
     <servers />
   </component>
