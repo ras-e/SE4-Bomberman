@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OSGiLibGDX/src/main/resource/META-INF/gameplugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/resources/META-INF/gameplugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/LifePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/LifePart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/PositionPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/PositionPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/resources/jens.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/resources/META-INF/entityprocessor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +29,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -139,7 +141,7 @@
       <workItem from="1648387236814" duration="928000" />
       <workItem from="1648391166357" duration="10851000" />
       <workItem from="1648447580365" duration="16329000" />
-      <workItem from="1648542536144" duration="3558000" />
+      <workItem from="1648542536144" duration="4310000" />
     </task>
     <servers />
   </component>
