@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonEnemy/src/main/java/dk/sdu/mmmi/bomberman/common/enemy/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/java/EnemyPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/java/EnemyProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/resources/META-INF/entityprocessor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/resources/META-INF/gameplugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonEnemy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
