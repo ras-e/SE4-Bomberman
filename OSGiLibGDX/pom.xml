@@ -9,7 +9,7 @@
   </parent>
 
   <properties>
-    <libGDX.version>1.5.0</libGDX.version>
+    <libGDX.version>1.6.3</libGDX.version>
     <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiLibGDX</bundle.symbolicName>
     <bundle.namespace>dk.sdu.mmmi.bomberman</bundle.namespace>
   </properties>
@@ -45,7 +45,7 @@
     <dependency>
       <groupId>com.badlogicgames.gdx</groupId>
       <artifactId>gdx</artifactId>
-      <version>${libGDX.version}</version>
+      <version>1.6.3</version> <!--Explicit version. Change to libgdx if bugged -->
     </dependency>
     <dependency>
       <groupId>com.badlogicgames.gdx</groupId>

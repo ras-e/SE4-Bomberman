@@ -79,4 +79,31 @@ public class Game implements ApplicationListener {
     @Override
     public void resize(int width, int height) {
     }
+
+    public void addEntityProcessingService(IEntityProcessingService eps) {
+        this.entityProcessorList.add(eps);
+    }
+
+    public void removeEntityProcessingService(IEntityProcessingService eps) {
+        this.entityProcessorList.remove(eps);
+    }
+
+    public void addPostEntityProcessingService(IPostEntityProcessingService eps) {
+        postEntityProcessorList.add(eps);
+    }
+
+    public void removePostEntityProcessingService(IPostEntityProcessingService eps) {
+        postEntityProcessorList.remove(eps);
+    }
+
+    public void addGamePluginService(IGamePluginService plugin) {
+        this.gamePluginList.add(plugin);
+        plugin.start(gameData, world);
+
+    }
+
+    public void removeGamePluginService(IGamePluginService plugin) {
+        this.gamePluginList.remove(plugin);
+        plugin.stop(gameData, world);
+    }
 }
