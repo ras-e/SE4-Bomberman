@@ -10,6 +10,7 @@ import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
+import dk.sdu.mmmi.bomberman.common.data.entityparts.TexturePart;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 
 public class PlayerPlugin implements IGamePluginService {
@@ -35,7 +36,7 @@ public class PlayerPlugin implements IGamePluginService {
         player.add(new LifePart(life));
         player.add(new MovingPart(speed));
         player.add(new PositionPart(x, y));
-
+        player.add(new TexturePart("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png", x, y));
         return player;
     }
 

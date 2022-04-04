@@ -47,7 +47,7 @@ public class Game implements ApplicationListener {
        cam.update();
        tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
-       texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
+       //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
        batch = new SpriteBatch();
     }
 
@@ -78,32 +78,5 @@ public class Game implements ApplicationListener {
 
     @Override
     public void resize(int width, int height) {
-    }
-
-    public void addEntityProcessingService(IEntityProcessingService eps) {
-        this.entityProcessorList.add(eps);
-    }
-
-    public void removeEntityProcessingService(IEntityProcessingService eps) {
-        this.entityProcessorList.remove(eps);
-    }
-
-    public void addPostEntityProcessingService(IPostEntityProcessingService eps) {
-        postEntityProcessorList.add(eps);
-    }
-
-    public void removePostEntityProcessingService(IPostEntityProcessingService eps) {
-        postEntityProcessorList.remove(eps);
-    }
-
-    public void addGamePluginService(IGamePluginService plugin) {
-        this.gamePluginList.add(plugin);
-        plugin.start(gameData, world);
-
-    }
-
-    public void removeGamePluginService(IGamePluginService plugin) {
-        this.gamePluginList.remove(plugin);
-        plugin.stop(gameData, world);
     }
 }
