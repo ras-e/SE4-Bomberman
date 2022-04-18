@@ -21,8 +21,5 @@
         <module name="OSGiLibGDX" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dk.sdu.mmmi.bomberman.OSGiMap" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
