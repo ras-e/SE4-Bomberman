@@ -11,10 +11,12 @@ import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
+
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
 
 public class Game implements ApplicationListener {
 
@@ -28,7 +30,8 @@ public class Game implements ApplicationListener {
     private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
 
 
-   public Game() {
+
+    public Game() {
         init();
     }
 
@@ -44,17 +47,19 @@ public class Game implements ApplicationListener {
 
     @Override
     public void create() {
+
        cam = new OrthographicCamera();
        //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
        cam.setToOrtho(false, 832, 704);
        cam.update();
        tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
-       //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
++       //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
     }
 
     @Override
     public void render() {
+
        renderer.setView(cam);
        renderer.render();
        cam.update();

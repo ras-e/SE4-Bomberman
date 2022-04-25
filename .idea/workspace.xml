@@ -136,6 +136,7 @@
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/revision.location" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/revision.location" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/config.ini" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +146,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -156,6 +158,31 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="MenuBranch" />
+                    <option name="lastUsedInstant" value="1649071090" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1649071089" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -249,6 +276,7 @@
       <workItem from="1649237173753" duration="27000" />
       <workItem from="1650866252390" duration="17000" />
       <workItem from="1650866284726" duration="6921000" />
+
     </task>
     <servers />
   </component>
