@@ -4,6 +4,9 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.maps.tiled.*;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
@@ -25,6 +28,8 @@ public class Game implements ApplicationListener {
     OrthogonalTiledMapRenderer renderer;
     public World world;
     GameData gameData = new GameData();
+    private SpriteBatch textureSpriteBatch;
+
     private static final List<IEntityProcessingService> entityProcessorList = new CopyOnWriteArrayList<>();
     private static final List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
     private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
@@ -54,7 +59,7 @@ public class Game implements ApplicationListener {
        cam.update();
        tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
-+       //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
+       //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
     }
 
     @Override
@@ -121,5 +126,13 @@ public class Game implements ApplicationListener {
     public void removeGamePluginService(IGamePluginService plugin) {
         this.gamePluginList.remove(plugin);
         plugin.stop(gameData, world);
+    }
+
+    public SpriteBatch getTextureSpriteBatch() {
+        return textureSpriteBatch;
+    }
+
+    public OrthographicCamera getCam() {
+        return cam;
     }
 }

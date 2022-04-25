@@ -21,10 +21,10 @@ public final class StateManager {
         this.game = game;
         this.world = world;
         this.gameData = gameData;
-        //setState(MENU);
+        setState(MENU);
 
     }
-/*
+
     public void setState(int state) {
         if (gameState != null) {
             gameState.dispose();
@@ -32,11 +32,10 @@ public final class StateManager {
         if (state == MENU) {
             gameState = new MenuState(this, game, world, gameData);
         }
-        if (state == PLAY) {
+        /* if (state == PLAY) {
             gameState = new PlayState(this, game, world, gameData);
-        }
+        }*/
     }
-*/
     public void update(float dt) {
         gameState.update(dt);
     }
@@ -45,5 +44,3 @@ public final class StateManager {
         gameState.render(spriteBatch);
     }
 }
-
-//}

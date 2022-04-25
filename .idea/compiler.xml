@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dk.sdu.mmmi.bomberman.OSGiCore" />
         <module name="dk.sdu.mmmi.bomberman.OSGiCommonMap" />
+        <module name="OSGiEnemy" />
         <module name="OSGiCollision" />
         <module name="dk.sdu.mmmi.bomberman.OSGiMap" />
         <module name="OSGiCommonAI" />
@@ -28,7 +29,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="OSGiEnemy" target="1.8" />
+      <module name="OSGIEnemy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
