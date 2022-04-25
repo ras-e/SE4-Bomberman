@@ -1,8 +1,5 @@
 package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import dk.sdu.mmmi.bomberman.OSGiCommonPlayer.Player;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
@@ -17,13 +14,12 @@ public class PlayerPlugin implements IGamePluginService {
     private String entityID;
     private float radius = 20f;
 
+    public PlayerPlugin(){}
+
     @Override
     public void start(GameData gameData, World world) {
         Entity player = createPlayer(gameData);
         entityID = world.addEntity(player);
-        for (IGamePluginService plugin : gameData.getGamePlugins()){
-            plugin.start(gameData, world);
-        }
     }
 
     private Entity createPlayer(GameData gameData){
@@ -42,5 +38,6 @@ public class PlayerPlugin implements IGamePluginService {
 
     @Override
     public void stop(GameData gameData, World world) {
+        world.removeEntity(entityID);
     }
 }

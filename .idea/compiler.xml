@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dk.sdu.mmmi.bomberman.OSGiCore" />
-        <module name="OSGiEnemy" />
+        <module name="dk.sdu.mmmi.bomberman.OSGiCommonMap" />
+        <module name="OSGiCollision" />
+        <module name="dk.sdu.mmmi.bomberman.OSGiMap" />
+        <module name="OSGiCommonAI" />
         <module name="OSGiCommonEnemy" />
+        <module name="OSGiPathfinder" />
         <module name="OSGIEnemy" />
         <module name="OSGICommon" />
         <module name="OSGICommonEnemy" />
+        <module name="OSGiAI" />
         <module name="OSGiCommon" />
+        <module name="dk.sdu.mmmi.bomberman.OSGiCommonPlayer" />
         <module name="OSGiCommonBomb" />
         <module name="OSGiCore" />
         <module name="Enemy" />
@@ -22,7 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dk.sdu.mmmi.bomberman.OSGiMap" target="1.8" />
+      <module name="OSGiEnemy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

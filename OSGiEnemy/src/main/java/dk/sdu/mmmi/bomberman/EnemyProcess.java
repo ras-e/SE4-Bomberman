@@ -1,3 +1,5 @@
+package dk.sdu.mmmi.bomberman;
+
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;

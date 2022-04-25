@@ -9,6 +9,7 @@ import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
+import dk.sdu.mmmi.bomberman.common.data.entityparts.TexturePart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
 
 public class PlayerProcess implements IEntityProcessingService {
@@ -20,6 +21,7 @@ public class PlayerProcess implements IEntityProcessingService {
             PositionPart positionPart = entity.getPart(PositionPart.class);
             MovingPart movingPart = entity.getPart(MovingPart.class);
             LifePart lifePart = entity.getPart(LifePart.class);
+            TexturePart texturePart = entity.getPart(TexturePart.class);
 
             //tells the movingpart, the entitypart, when a key is pressed
             movingPart.setUp(Gdx.input.isKeyPressed(Input.Keys.W));
@@ -31,6 +33,8 @@ public class PlayerProcess implements IEntityProcessingService {
             positionPart.process(gameData, entity);
             movingPart.process(gameData, entity);
             lifePart.process(gameData, entity);
+            texturePart.process(gameData, entity);
+
 
             //Checks whether the player is dead and consequently removes them if so
             if (lifePart.isDead()){

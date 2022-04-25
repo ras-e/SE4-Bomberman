@@ -1,8 +1,10 @@
+package dk.sdu.mmmi.bomberman;
+
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.World;
-import dk.sdu.mmmi.bomberman.common.enemy.Enemy;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
+import dk.sdu.mmmi.bomberman.common.enemy.*;
 
 public class EnemyPlugin implements IGamePluginService {
 

@@ -43,19 +43,6 @@
     </dependency>
     <dependency>
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiEnemy</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <type>bundle</type>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiCommonEnemy</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
       <artifactId>OSGiBomb</artifactId>
       <version>1.0-SNAPSHOT</version>
       <type>bundle</type>
@@ -63,7 +50,35 @@
     </dependency>
     <dependency>
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
+      <artifactId>OSGiAI</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>bundle</type>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
+      <artifactId>OSGiPathfinder</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>bundle</type>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
+      <artifactId>OSGiCommonAI</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>bundle</type>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
       <artifactId>OSGiCommonBomb</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>bundle</type>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
+      <artifactId>OSGiCollision</artifactId>
       <version>1.0-SNAPSHOT</version>
       <type>bundle</type>
       <scope>provided</scope>
@@ -124,34 +139,6 @@
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
       <artifactId>OSGiLibGDX</artifactId>
       <version>1.0-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiAI</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <type>bundle</type>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiPathfinder</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <type>bundle</type>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiCommonAI</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <type>bundle</type>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiCollision</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <type>bundle</type>
       <scope>provided</scope>
     </dependency>
     <dependency>
