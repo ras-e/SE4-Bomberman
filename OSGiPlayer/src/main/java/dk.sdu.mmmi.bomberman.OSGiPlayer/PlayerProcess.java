@@ -21,7 +21,7 @@ public class PlayerProcess implements IEntityProcessingService {
             PositionPart positionPart = entity.getPart(PositionPart.class);
             MovingPart movingPart = entity.getPart(MovingPart.class);
             LifePart lifePart = entity.getPart(LifePart.class);
-            TexturePart texturePart = entity.getPart(TexturePart.class);
+            //TexturePart texturePart = entity.getPart(TexturePart.class);
 
             //tells the movingpart, the entitypart, when a key is pressed
             movingPart.setUp(Gdx.input.isKeyPressed(Input.Keys.W));
@@ -33,7 +33,7 @@ public class PlayerProcess implements IEntityProcessingService {
             positionPart.process(gameData, entity);
             movingPart.process(gameData, entity);
             lifePart.process(gameData, entity);
-            texturePart.process(gameData, entity);
+            //texturePart.process(gameData, entity);
 
 
             //Checks whether the player is dead and consequently removes them if so
