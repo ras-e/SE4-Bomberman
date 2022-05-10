@@ -56,7 +56,7 @@ public class Game implements ApplicationListener {
        //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
        cam.setToOrtho(false, 832, 704);
        cam.update();
-       tiledMap = new TmxMapLoader().load("OSGiCore/src/main/resources/assets/smallMap.tmx");
+       tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
        //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
     }
