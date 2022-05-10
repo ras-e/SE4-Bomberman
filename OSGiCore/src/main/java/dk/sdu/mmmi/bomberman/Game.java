@@ -35,7 +35,8 @@ public class Game implements ApplicationListener {
     private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
 
 
-
+    //TODO: Clean the fucking game, we got so shit folders around for no goddamn reason
+    //TODO: Remove the following: assets, Bomberman, Core, desktop, (dk.sdu...)OSGiCommonMap, (dk.sdu...)OSGiCommonPlayer, gradle libgdxTest, OSGiMap and player
     public Game() {
         init();
     }
