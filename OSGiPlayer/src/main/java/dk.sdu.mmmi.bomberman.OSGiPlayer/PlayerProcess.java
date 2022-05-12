@@ -2,6 +2,9 @@ package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import dk.sdu.mmmi.bomberman.OSGiCommonPlayer.Player;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
@@ -13,6 +16,9 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.TexturePart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
 
 public class PlayerProcess implements IEntityProcessingService {
+    private Texture texture;
+    private Sprite sprite;
+    private SpriteBatch batch;
     @Override
     public void process(GameData gameData, World world) {
         for (Entity entity : world.getEntities(Player.class)){

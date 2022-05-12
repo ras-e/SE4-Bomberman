@@ -1,8 +1,5 @@
 package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import dk.sdu.mmmi.bomberman.OSGiCommonPlayer.Player;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
@@ -38,7 +35,7 @@ public class PlayerPlugin implements IGamePluginService {
         player.add(new LifePart(life));
         player.add(new MovingPart(speed));
         player.add(new PositionPart(x, y));
-        player.add(new TexturePart("jens.png",1,1));
+        player.add(new TexturePart("jens.png"));
         return player;
     }
 
