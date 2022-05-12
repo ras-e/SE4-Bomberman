@@ -8,7 +8,7 @@ import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.utils.AssetsJarFileResolver;
 
 import java.io.File;
-import java.io.InputStream;
+
 
 
 public class TexturePart implements EntityPart{
