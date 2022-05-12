@@ -31,7 +31,7 @@ public class TexturePart implements EntityPart{
     //TODO:Currently the target path for texture begins at our runner folder, that needs to be changed to the common folder
     public TexturePart(String fileName, float x, float y){
         String jarUrl = java.nio.file.Paths.get(new File("").getAbsolutePath(),
-                 "target","OSGiCommon-1.0-SNAPSHOT.jar","maps",fileName).toString();
+                 "bundles","dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar","maps",fileName).toString();
 
         AssetsJarFileResolver jfhr = new AssetsJarFileResolver();
         AssetManager assetManager = new AssetManager(jfhr);

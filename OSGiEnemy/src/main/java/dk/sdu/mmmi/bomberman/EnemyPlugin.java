@@ -20,6 +20,7 @@ public class EnemyPlugin implements IGamePluginService {
         this.amountOfEnemies = amountOfEnemies;
 
     }
+    //TODO: Add entityparts, same as the player. Omit texturepart for now though
     @Override
     public void start(GameData gameData, World world) {
         // Add entities to the game world (x Bombermans)
