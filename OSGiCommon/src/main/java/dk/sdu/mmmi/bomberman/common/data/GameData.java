@@ -15,7 +15,18 @@ public class GameData {
     private final GameKeys keys = new GameKeys();
     private List<Event> events = new CopyOnWriteArrayList<>();
     private List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
+    private boolean Evictory = false;
+    private boolean Pvictory = false;
 
+
+    //Sets the game status (gameover, victory)
+    public void setEVictory(boolean gameOver) {
+        this.Evictory = Evictory;
+    }
+
+    public void setPVictory(boolean victory) {
+        this.Pvictory = Pvictory;
+    }
 
     public void addEvent(Event e) {
         events.add(e);

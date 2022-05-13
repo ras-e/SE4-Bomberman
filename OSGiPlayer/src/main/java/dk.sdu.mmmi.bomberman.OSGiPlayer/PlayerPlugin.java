@@ -31,7 +31,7 @@ public class PlayerPlugin implements IGamePluginService {
         float speed = 200;
         float x = 64;
         float y = 64;
-        int life = 3;
+        int life = 1;
         player.add(new LifePart(life));
         player.add(new MovingPart(speed));
         player.add(new PositionPart(x, y));

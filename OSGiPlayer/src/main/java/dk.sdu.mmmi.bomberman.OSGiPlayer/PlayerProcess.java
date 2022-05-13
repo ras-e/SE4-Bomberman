@@ -45,6 +45,7 @@ public class PlayerProcess implements IEntityProcessingService {
             //Checks whether the player is dead and consequently removes them if so
             if (lifePart.isDead()){
                 world.removeEntity(entity);
+                gameData.setEVictory(true);
             }
         }
     }
