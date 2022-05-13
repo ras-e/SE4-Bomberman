@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/CirclePart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/GameData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/src/main/java/dk/sdu/mmmi/bomberman/EnemyPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/java/dk/sdu/mmmi/bomberman/EnemyPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/src/main/java/dk/sdu/mmmi/bomberman/EnemyProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiEnemy/src/main/java/dk/sdu/mmmi/bomberman/EnemyProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiEnemy/src/main/resources/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
