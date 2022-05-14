@@ -4,5 +4,4 @@
     <service>
         <provide interface="dk.sdu.mmmi.bomberman.common.services.IGamePluginService"/>
     </service>
-
 </scr:component>

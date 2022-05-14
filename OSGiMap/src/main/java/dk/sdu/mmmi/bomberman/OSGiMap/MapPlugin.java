@@ -1,6 +1,5 @@
 package dk.sdu.mmmi.bomberman.OSGiMap;
 
-
 import dk.sdu.mmmi.bomberman.commonmap.Map;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;

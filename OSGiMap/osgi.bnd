@@ -1,3 +1,3 @@
-Bundle-SymbolicName: OSGiAsteroidsPlayer
+Bundle-SymbolicName: MapPlugin
 Bundle-ActivationPolicy: lazy
 Service-Component: META-INF/gameplugin.xml
