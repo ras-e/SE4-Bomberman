@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.bomberman;
+package dk.sdu.mmmi.bomberman.enemy;
 
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
