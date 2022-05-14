@@ -27,6 +27,14 @@
     <groupId>dk.sdu.mmmi.bomberman</groupId>
     <artifactId>Bomberman</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
+            <artifactId>OSGiCommon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <name>dk.sdu.mmmi.bomberman.Bomberman (OSGi project)</name>
 
@@ -53,17 +61,19 @@
         <module>provision</module>
         <module>OSGiCommon</module>
         <module>OSGiCommonEnemy</module>
-         <module>OSGiEnemy</module>
-         <module>OSGiBomb</module>
-         <module>OSGiAI</module>
-         <module>OSGiPathfinder</module>
-         <module>OSGiCommonAI</module>
-         <module>OSGiCommonBomb</module>
-         <module>OSGiCollision</module>
+        <module>OSGiEnemy</module>
+        <module>OSGiBomb</module>
+        <module>OSGiAI</module>
+        <module>OSGiPathfinder</module>
+        <module>OSGiCommonAI</module>
+        <module>OSGiCommonBomb</module>
+        <module>OSGiCollision</module>
         <module>OSGiPlayer</module>
         <module>OSGiCore</module>
         <module>OSGiLibGDX</module>
         <module>OSGiMap</module>
+        <module>OSGiCommonMap</module>
+
     </modules>
 
     <build>

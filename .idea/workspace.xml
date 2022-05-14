@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collisiondetector/CollisionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonMap/osgi.bnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonMap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonMap/src/main/java/dk/sdu/mmmi/bomberman/Tile/Tile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/src/main/java/dk/sdu/mmmi/bomberman/OSGiMap/MapPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/src/main/java/dk/sdu/mmmi/bomberman/OSGiMap/MapPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/src/main/resources/META-INF/gameplugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/src/main/resources/META-INF/gameplugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiMap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,12 +90,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitProjects\SE4-Bomberman" />
       <recent name="D:\GitProjects\SE4-Bomberman" />
       <recent name="$PROJECT_DIR$/OSGiPlayer/src/main/resources/Assets" />
       <recent name="C:\GitProjects\SE4-Bomberman\OSGiLibGDX\src\main\resource\fonts" />
       <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitProjects\SE4-Bomberman\OSGiCommonMap\src\main\ressources\META-INF" />
       <recent name="D:\GitProjects\SE4-Bomberman\OSGiCommonMap\src\main\java" />
       <recent name="$PROJECT_DIR$/OSGiCommon/src/main/resources" />
     </key>
@@ -216,7 +219,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
