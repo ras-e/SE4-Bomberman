@@ -17,6 +17,8 @@ import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
 
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 
+import dk.sdu.mmmi.bomberman.common.tools.FileLoader;
+
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -57,7 +59,10 @@ public class Game implements ApplicationListener {
        //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
        cam.setToOrtho(false, 832, 704);
        cam.update();
-       tiledMap = new TmxMapLoader().load("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/smallMap.tmx");
+
+			 String[] mapFiles = {"assets/smallMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
+			 FileLoader.loadFiles(mapFiles, getClass());
+			 tiledMap = new TmxMapLoader().load(mapFiles[0]);
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
        //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
     }
