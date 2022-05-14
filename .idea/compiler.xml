@@ -10,6 +10,7 @@
         <module name="dk.sdu.mmmi.bomberman.OSGiCommonMap" />
         <module name="OSGiEnemy" />
         <module name="OSGiCollision" />
+        <module name="OSGiExplosion" />
         <module name="dk.sdu.mmmi.bomberman.OSGiMap" />
         <module name="OSGiCommonAI" />
         <module name="OSGiCommonEnemy" />
@@ -19,13 +20,18 @@
         <module name="OSGICommonEnemy" />
         <module name="OSGiAI" />
         <module name="OSGiCommon" />
-        <module name="dk.sdu.mmmi.bomberman.OSGiCommonPlayer" />
         <module name="OSGiCommonBomb" />
         <module name="OSGiCore" />
         <module name="Enemy" />
         <module name="OSGiPlayer" />
         <module name="OSGiBomb" />
         <module name="OSGiLibGDX" />
+      </profile>
+      <profile name="Annotation profile for dk.sdu.mmmi.bomberman.Bomberman (OSGi project)" enabled="true">
+        <sourceOutputDir name="../dk.sdu.mmmi.bomberman.OSGiCommonPlayer/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../dk.sdu.mmmi.bomberman.OSGiCommonPlayer/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="OSGiCommonPlayer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

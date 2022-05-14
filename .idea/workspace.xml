@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/Bomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/BombPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/NormalBomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/internal/BombActivator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/internal/BombProcessingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/entities/Explosion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/parts/InventoryPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/services/BombSPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiExplosion/osgi.bnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiExplosion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiExplosion/src/main/java/dk/sdu/mmmi/bomberman/OSGiExplosion/ExplosionPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiExplosion/src/main/java/dk/sdu/mmmi/bomberman/OSGiExplosion/ExplosionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiExplosion/src/main/resources/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonPlayer/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonPlayer/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/src/main/resources/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +102,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/janpe20/Desktop/SB4-KOM/SB4-KOM-F20/AsteroidsNetbeansModules",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\spang\Documents\GitHub\SE4-Bomberman" />
       <recent name="$PROJECT_DIR$/OSGiPlayer/src/main/resources/Assets" />
       <recent name="C:\GitProjects\SE4-Bomberman\OSGiLibGDX\src\main\resource\fonts" />
       <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
@@ -190,6 +218,8 @@
       <workItem from="1651655071054" duration="266000" />
       <workItem from="1651826912874" duration="385000" />
       <workItem from="1652171992564" duration="3366000" />
+      <workItem from="1652344822305" duration="9493000" />
+      <workItem from="1652430324132" duration="15164000" />
     </task>
     <servers />
   </component>

@@ -9,15 +9,15 @@
   </parent>
 
   <properties>
-    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiPlayer</bundle.symbolicName>
+    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiExplosion</bundle.symbolicName>
     <bundle.namespace>dk.sdu.mmmi.bomberman</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>OSGiPlayer</artifactId>
+  <artifactId>OSGiExplosion</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>OSGiPlayer</name>
+  <name>OSGiExplosion</name>
 
   <packaging>bundle</packaging>
 
@@ -37,27 +37,14 @@
       <optional>true</optional>
     </dependency>
     <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>OSGiCommonBomb</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>osgi_R4_compendium</artifactId>
       <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman</groupId>
-      <artifactId>dk.sdu.mmmi.bomberman.OSGiCommonPlayer</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiCommon</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiCommonBomb</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 
