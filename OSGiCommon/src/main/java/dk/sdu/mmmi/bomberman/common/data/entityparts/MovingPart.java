@@ -11,6 +11,10 @@ public class MovingPart implements EntityPart {
     private float speed;
     private boolean up, down, left, right;
 
+    //Collision detection
+    private float lastX, lastY;
+    private boolean isInWalls;
+
     public MovingPart(float speed) {
         this.speed = speed;
     }
@@ -65,4 +69,29 @@ public class MovingPart implements EntityPart {
         positionPart.setX(x);
         positionPart.setY(y);
     }
+
+    public boolean isInWalls() {
+        return isInWalls;
+    }
+
+    public void setIsInWalls(boolean isInWalls) {
+        this.isInWalls = isInWalls;
+    }
+
+    public float getLastX() {
+        return lastX;
+    }
+
+    public void setLastX(float lastX) {
+        this.lastX = lastX;
+    }
+
+    public float getLastY() {
+        return lastY;
+    }
+
+    public void setLastY(float lastY) {
+        this.lastY = lastY;
+    }
+
 }

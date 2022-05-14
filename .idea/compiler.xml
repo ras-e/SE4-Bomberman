@@ -25,6 +25,7 @@
         <module name="Enemy" />
         <module name="OSGiPlayer" />
         <module name="OSGiBomb" />
+        <module name="OSGiCommonPlayer" />
         <module name="OSGiLibGDX" />
         <module name="OSGiCommonMap" />
       </profile>

@@ -19,6 +19,7 @@ public class PlayerProcess implements IEntityProcessingService {
     private Texture texture;
     private Sprite sprite;
     private SpriteBatch batch;
+
     @Override
     public void process(GameData gameData, World world) {
         for (Entity entity : world.getEntities(Player.class)){
@@ -40,7 +41,6 @@ public class PlayerProcess implements IEntityProcessingService {
             movingPart.process(gameData, entity);
             lifePart.process(gameData, entity);
             texturePart.process(gameData, entity);
-
 
             //Checks whether the player is dead and consequently removes them if so
             if (lifePart.isDead()){

@@ -1,1 +1,2 @@
-
+Bundle-Symbolic: Collision
+Service-Component: META-INF/entityprocessor.xml

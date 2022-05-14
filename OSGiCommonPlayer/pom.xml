@@ -9,15 +9,15 @@
   </parent>
 
   <properties>
-    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiCommonMap</bundle.symbolicName>
+    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiCommonPlayer</bundle.symbolicName>
     <bundle.namespace>dk.sdu.mmmi.bomberman</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>OSGiCommonMap</artifactId>
+  <artifactId>OSGiCommonPlayer</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>OSGiCommonMap</name>
+  <name>OSGiCommonPlayer</name>
 
   <packaging>bundle</packaging>
 

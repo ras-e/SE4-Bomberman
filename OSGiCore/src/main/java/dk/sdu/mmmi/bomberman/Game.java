@@ -35,10 +35,7 @@ public class Game implements ApplicationListener {
     private static final List<IEntityProcessingService> entityProcessorList = new CopyOnWriteArrayList<>();
     private static final List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
     private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
-
-
-    //TODO: Clean the fucking game, we got so shit folders around for no goddamn reason
-    //TODO: Remove the following: assets, Bomberman, Core, desktop, (dk.sdu...)OSGiCommonMap, (dk.sdu...)OSGiCommonPlayer, gradle libgdxTest, OSGiMap and player
+    
     public Game() {
         init();
     }
@@ -60,9 +57,9 @@ public class Game implements ApplicationListener {
        cam.setToOrtho(false, 832, 704);
        cam.update();
 
-			 String[] mapFiles = {"assets/smallMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
-			 FileLoader.loadFiles(mapFiles, getClass());
-			 tiledMap = new TmxMapLoader().load(mapFiles[0]);
+       String[] mapFiles = {"assets/smallMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
+       FileLoader.loadFiles(mapFiles, getClass());
+       tiledMap = new TmxMapLoader().load(mapFiles[0]);
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
        //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
     }
@@ -100,6 +97,7 @@ public class Game implements ApplicationListener {
 
     @Override
     public void dispose() {
+        textureSpriteBatch.dispose();
     }
 
     @Override
