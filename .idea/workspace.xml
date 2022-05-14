@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collisiondetector/CollisionProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonMap/osgi.bnd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonMap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonMap/src/main/java/dk/sdu/mmmi/bomberman/Tile/Tile.java" afterDir="false" />
+    <list default="true" id="d5afe591-bcb7-494d-86d7-0f5c78cc188c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiMap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collisiondetector/CollisionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collisiondetector/CollisionProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,101 +25,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Bomb" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="CollisionWall" />
-                    <option name="lastUsedInstant" value="1652520668" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1652520648" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="MenuBranch" />
-                    <option name="lastUsedInstant" value="1649071090" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="ProjectId" id="26mdBmTd4iUBZWZUUFVN2pqQvTC" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="299nyIbyRx2jOnleH0SMTLFWAVt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="MTHome" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitProjects\SE4-Bomberman" />
-      <recent name="D:\GitProjects\SE4-Bomberman" />
-      <recent name="$PROJECT_DIR$/OSGiPlayer/src/main/resources/Assets" />
-      <recent name="C:\GitProjects\SE4-Bomberman\OSGiLibGDX\src\main\resource\fonts" />
-      <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitProjects\SE4-Bomberman\OSGiCommonMap\src\main\ressources\META-INF" />
-      <recent name="D:\GitProjects\SE4-Bomberman\OSGiCommonMap\src\main\java" />
-      <recent name="$PROJECT_DIR$/OSGiCommon/src/main/resources" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean" />
-      <command value="mvn install" />
-      <command value="mvn clean install" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Remote JVM Debug.debugger">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,86 +63,32 @@
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Bomberman [pax:provision]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="pax:provision" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="true" />
+      <option name="buildType" value="" />
+      <option name="bundleLocation" value="" />
+      <option name="developerMode" value="true" />
+      <option name="gogoShellPort" value="11311" />
+      <option name="passParentEnvironments" value="true" />
+      <option name="vmParameters" value="-Xmx2560m" />
       <method v="2" />
     </configuration>
-    <configuration name="debugger" type="Remote">
-      <module name="Bomberman" />
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="1044" />
-      <option name="AUTO_RESTART" value="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1044" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Maven.Bomberman [pax:provision]" />
-      <item itemvalue="Remote JVM Debug.debugger" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="" />
-      <created>1648032571097</created>
+      <changelist id="d5afe591-bcb7-494d-86d7-0f5c78cc188c" name="Changes" comment="" />
+      <created>1652534425647</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648032571097</updated>
-      <workItem from="1648032576253" duration="571000" />
-      <workItem from="1648061940734" duration="5397000" />
-      <workItem from="1648068869398" duration="7009000" />
-      <workItem from="1648077171980" duration="24000" />
-      <workItem from="1648078597701" duration="684000" />
-      <workItem from="1648150282395" duration="288000" />
-      <workItem from="1649060047339" duration="9116000" />
-      <workItem from="1649226563431" duration="168000" />
-      <workItem from="1649231428057" duration="79000" />
-      <workItem from="1649236902496" duration="27000" />
-      <workItem from="1649237173753" duration="27000" />
-      <workItem from="1650866252390" duration="17000" />
-      <workItem from="1650866284726" duration="6921000" />
-      <workItem from="1651564920984" duration="117000" />
-      <workItem from="1651574002436" duration="22000" />
-      <workItem from="1651655071054" duration="266000" />
-      <workItem from="1651826912874" duration="385000" />
-      <workItem from="1652171992564" duration="3366000" />
-      <workItem from="1652429910156" duration="2230000" />
-      <workItem from="1652522708720" duration="1377000" />
+      <updated>1652534425647</updated>
+      <workItem from="1652534430392" duration="391000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.facetType" implementationName="Osmorc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -219,22 +100,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
