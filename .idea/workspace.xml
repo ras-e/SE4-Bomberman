@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/CirclePart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/osgi.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/src/main/java/dk/sdu/mmmi/bomberman/OSGiMap/MapPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/src/main/java/dk/sdu/mmmi/bomberman/OSGiMap/MapPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiMap/src/main/resources/META-INF/gameplugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/src/main/resources/META-INF/gameplugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +45,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="MenuBranch" />
-                    <option name="lastUsedInstant" value="1649071090" />
+                    <option name="branchName" value="CollisionWall" />
+                    <option name="lastUsedInstant" value="1652520668" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1649071089" />
+                    <option name="lastUsedInstant" value="1652520648" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="MenuBranch" />
+                    <option name="lastUsedInstant" value="1649071090" />
                   </RecentBranch>
                 </list>
               </option>
@@ -70,14 +81,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitProjects\SE4-Bomberman" />
       <recent name="$PROJECT_DIR$/OSGiPlayer/src/main/resources/Assets" />
       <recent name="C:\GitProjects\SE4-Bomberman\OSGiLibGDX\src\main\resource\fonts" />
       <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitProjects\SE4-Bomberman\OSGiCommonMap\src\main\java" />
       <recent name="$PROJECT_DIR$/OSGiCommon/src/main/resources" />
     </key>
   </component>
@@ -178,6 +196,7 @@
       <workItem from="1651826912874" duration="385000" />
       <workItem from="1652171992564" duration="3366000" />
       <workItem from="1652429910156" duration="2230000" />
+      <workItem from="1652522708720" duration="1377000" />
     </task>
     <servers />
   </component>

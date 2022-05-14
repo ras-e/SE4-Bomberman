@@ -53,7 +53,7 @@
         <module>provision</module>
         <module>OSGiCommon</module>
         <module>OSGiCommonEnemy</module>
-         <!--<module>OSGiEnemy</module>!-->
+         <module>OSGiEnemy</module>
          <module>OSGiBomb</module>
          <module>OSGiAI</module>
          <module>OSGiPathfinder</module>
@@ -63,7 +63,7 @@
         <module>OSGiPlayer</module>
         <module>OSGiCore</module>
         <module>OSGiLibGDX</module>
-        <module>dk.sdu.mmmi.bomberman.OSGiMap</module>
+        <module>OSGiMap</module>
     </modules>
 
     <build>
