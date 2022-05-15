@@ -16,6 +16,7 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.TiledMapPart;
 import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
+import dk.sdu.mmmi.bomberman.commonenemy.Enemy;
 import dk.sdu.mmmi.bomberman.commonmap.Tile;
 import dk.sdu.mmmi.bomberman.commonplayer.Player;
 
@@ -25,12 +26,12 @@ public class CollisionProcessor implements IPostEntityProcessingService {
     MapObjects objects;
     MapObjects border;
 
-
     @Override
     public void process(GameData gameData, World world) {
         if (world == null) {
             throw new IllegalArgumentException("World defined as null");
         }
+        // Retrives the tile layers (walls and objects defined in ColMap map file)
         if (map == null) {
             for (Entity Tile : world.getEntities(Tile.class)) {
                 TiledMapPart tiledMap = Tile.getPart(TiledMapPart.class);
@@ -42,30 +43,57 @@ public class CollisionProcessor implements IPostEntityProcessingService {
         //TODO: Damage logic (Bomb), additionally add logic for rectangle so that moving through bomb is not possible.
 
         //Cannot move through walls using rectangle overlaps
-        for (Entity player : world.getEntities(Player.class)) {
-            MovingPart movingPart = player.getPart(MovingPart.class);
-            PositionPart positionPart = player.getPart(PositionPart.class);
 
+        //Player logic
+        for (Entity player : world.getEntities(Player.class)) {
+            MovingPart PmovingPart = player.getPart(MovingPart.class);
+            PositionPart PpositionPart = player.getPart(PositionPart.class);
+            
             for (RectangleMapObject rectangleObject : objects.getByType(RectangleMapObject.class)) {
                 Rectangle rectangle = rectangleObject.getRectangle();
-                Rectangle playerRectangle = new Rectangle(positionPart.getX(), positionPart.getY(), 35, 35);
+                Rectangle playerRectangle = new Rectangle(PpositionPart.getX(), PpositionPart.getY(), 35, 35);
 
                 if (Intersector.overlaps(rectangle, playerRectangle)) {
-                    movingPart.setIsInWalls(true);
+                    PmovingPart.setIsInWalls(true);
                 }
             }
             for (RectangleMapObject rectangleObject : border.getByType(RectangleMapObject.class)) {
                 Rectangle rectangle = rectangleObject.getRectangle();
-                Rectangle playerRectangle = new Rectangle(positionPart.getX(), positionPart.getY(), 35, 35);
+                Rectangle playerRectangle = new Rectangle(PpositionPart.getX(), PpositionPart.getY(), 35, 35);
 
                 if (Intersector.overlaps(rectangle, playerRectangle)) {
-                    movingPart.setIsInWalls(true);
+                    PmovingPart.setIsInWalls(true);
                 }
             }
+            if (!PmovingPart.isInWalls()) {
+                PmovingPart.setLastX(PpositionPart.getX());
+                PmovingPart.setLastY(PpositionPart.getY());
+            }
+        //Enemy entity logic
+        for (Entity enemy : world.getEntities(Enemy.class)) {
+            MovingPart EmovingPart = enemy.getPart(MovingPart.class);
+            PositionPart EpositionPart = enemy.getPart(PositionPart.class);
 
-            if (!movingPart.isInWalls()) {
-                movingPart.setLastX(positionPart.getX());
-                movingPart.setLastY(positionPart.getY());
+            for (RectangleMapObject rectangleObject : objects.getByType(RectangleMapObject.class)) {
+                Rectangle rectangle = rectangleObject.getRectangle();
+                Rectangle playerRectangle = new Rectangle(EpositionPart.getX(), EpositionPart.getY(), 35, 35);
+
+                if (Intersector.overlaps(rectangle, playerRectangle)) {
+                        EmovingPart.setIsInWalls(true);
+                }
+            }
+            for (RectangleMapObject rectangleObject : border.getByType(RectangleMapObject.class)) {
+                Rectangle rectangle = rectangleObject.getRectangle();
+                Rectangle playerRectangle = new Rectangle(EpositionPart.getX(), EpositionPart.getY(), 35, 35);
+
+                if (Intersector.overlaps(rectangle, playerRectangle)) {
+                    EmovingPart.setIsInWalls(true);
+                }
+            }
+            if (!EmovingPart.isInWalls()) {
+                EmovingPart.setLastX(EpositionPart.getX());
+                EmovingPart.setLastY(EpositionPart.getY());
+                }
             }
         }
     }
