@@ -114,7 +114,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-<<<<<<< Updated upstream
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
       <artifactId>OSGiBomb</artifactId>
       <version>1.0-SNAPSHOT</version>
@@ -122,8 +121,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-=======
->>>>>>> Stashed changes
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
       <artifactId>OSGiAI</artifactId>
       <version>1.0-SNAPSHOT</version>
@@ -172,19 +169,9 @@
     </dependency>
     <dependency>
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-<<<<<<< Updated upstream
       <artifactId>OSGiMap</artifactId>
       <version>1.0-SNAPSHOT</version>
       <type>bundle</type>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman</groupId>
-      <artifactId>dk.sdu.mmmi.bomberman.OSGiCommonMap</artifactId>
-=======
-      <artifactId>dk.sdu.mmmi.bomberman.OSGiMap</artifactId>
->>>>>>> Stashed changes
-      <version>1.0-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

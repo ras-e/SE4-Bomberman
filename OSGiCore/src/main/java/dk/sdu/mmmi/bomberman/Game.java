@@ -71,7 +71,6 @@ public class Game implements ApplicationListener {
        renderer.render();
        cam.update();
        update();
-
     }
 
     private void update(){
