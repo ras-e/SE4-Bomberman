@@ -14,6 +14,12 @@
         <option value="$PROJECT_DIR$/OSGiEnemy/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonMap/pom.xml" />
+        <option value="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
