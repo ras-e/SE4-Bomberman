@@ -18,19 +18,38 @@ public class JarFileHandleStream extends FileHandleStream {
     private JarFile jarFile = null;
     private String jarRelResDir;
 
+    /**
+     *
+     * @param path
+     *
+     *
+     */
     public JarFileHandleStream(String path) {
         super(path);
         try {
             String[] args = path.split("!");
-            jarRelResDir = args[1].substring(1);
-
+            jarRelResDir = args[0].substring(0);
             String jarFilePath = args[0];
-            jarFile = new JarFile(jarFilePath);
+            if(jarFile == null) {
+                jarFile = new JarFile(jarFilePath);
+
+            }
         } catch (IOException ex) {
             Logger.getLogger(JarFileHandleStream.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+//public JarFileHandleStream(String path) {
+//        super(path);
+//        try {
+//            String[] args = path.split("!");
+//            jarRelResDir = args[1].substring(1);
+//
+//            String jarFilePath = args[0];
+//            jarFile = new JarFile(jarFilePath);
+//        } catch (IOException ex) {
+//            Logger.getLogger(JarFileHandleStream.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+//    }
     @Override
     public InputStream read() {
 
