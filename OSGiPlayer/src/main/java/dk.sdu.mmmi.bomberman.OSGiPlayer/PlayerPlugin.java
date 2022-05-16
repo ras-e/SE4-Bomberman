@@ -35,7 +35,7 @@ public class PlayerPlugin implements IGamePluginService {
         player.add(new LifePart(life));
         player.add(new MovingPart(speed));
         player.add(new PositionPart(x, y));
-        player.add(new TexturePart("jens.png"));
+        player.add(new TexturePart("assets/jens.png"));
         return player;
     }
 

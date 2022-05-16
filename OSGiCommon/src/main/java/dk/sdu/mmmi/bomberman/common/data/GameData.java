@@ -2,7 +2,7 @@ package dk.sdu.mmmi.bomberman.common.data;
 
 import dk.sdu.mmmi.bomberman.common.events.Event;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
-
+import dk.sdu.mmmi.bomberman.common.tools.DynamicAssetManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -17,6 +17,7 @@ public class GameData {
     private List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
     private boolean Evictory = false;
     private boolean Pvictory = false;
+    private DynamicAssetManager dynamicAssetManager = new DynamicAssetManager();
 
 
     //Sets the game status (gameover, victory)
@@ -81,5 +82,9 @@ public class GameData {
         }
 
         return r;
+    }
+
+    public DynamicAssetManager getAssetManager() {
+        return dynamicAssetManager;
     }
 }
