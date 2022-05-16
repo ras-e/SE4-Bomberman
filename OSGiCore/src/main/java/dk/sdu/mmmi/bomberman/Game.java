@@ -62,8 +62,6 @@ public class Game implements ApplicationListener {
        tiledMap = new TmxMapLoader().load(mapFiles[0]);
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
        //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
-
-        gameData.getAssetManager().loadAssets();
     }
 
     @Override
