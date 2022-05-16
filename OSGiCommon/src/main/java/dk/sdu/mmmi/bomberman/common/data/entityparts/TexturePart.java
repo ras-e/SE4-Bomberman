@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
+import dk.sdu.mmmi.bomberman.common.tools.DynamicAssetManager;
 import dk.sdu.mmmi.bomberman.common.utils.AssetsJarFileResolver;
 
 import java.io.File;
@@ -14,26 +15,14 @@ import java.io.File;
 
 public class TexturePart implements EntityPart{
     private Texture texture;
+    private String TextureFileName;
     private SpriteBatch batch;
     private Sprite sprite;
     private float x;
     private float y;
 
     public TexturePart(String fileName) {
-        String jarUrl = java.nio.file.Paths.get(new File("").getAbsolutePath(),
-                "bundles", "dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar!", "assets", "jens.png").toString();
-        AssetsJarFileResolver jfhr = new AssetsJarFileResolver();
-//        jfhr.resolve(jarUrl);
-        AssetManager am = new AssetManager(jfhr);
-
-        am.load(jarUrl, Texture.class);
-        am.finishLoading();
-
-        texture = am.get(jarUrl, Texture.class);
-
-        sprite = new Sprite(texture);
-
-        am.dispose();
+        TextureFileName = fileName;
     }
 
     /**
@@ -44,8 +33,12 @@ public class TexturePart implements EntityPart{
      * */
     @Override
     public void process(GameData gameData, Entity entity) {
+        DynamicAssetManager am = gameData.getAssetManager();
+        texture = am.getTexture(TextureFileName);
+        sprite = new Sprite(texture);
+        batch = new SpriteBatch();
         batch.begin();
-        batch.draw(texture, x, y);
+        batch.draw(texture, 0, 0, 100, 100);
         batch.end();
     }
 }
