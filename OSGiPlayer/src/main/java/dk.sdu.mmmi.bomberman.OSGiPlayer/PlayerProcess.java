@@ -33,7 +33,7 @@ public class PlayerProcess implements IEntityProcessingService {
             MovingPart movingPart = entity.getPart(MovingPart.class);
             LifePart lifePart = entity.getPart(LifePart.class);
             TexturePart texturePart = entity.getPart(TexturePart.class);
-            texture = new Texture(AssetLoader.getAssetPath("jens.png"));
+            //texture = gameData.getAssetManager().getTexture("assets/jens.png");
 
             //tells the movingpart, the entitypart, when a key is pressed
             movingPart.setUp(Gdx.input.isKeyPressed(Input.Keys.W));
