@@ -18,7 +18,7 @@ import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 
 import dk.sdu.mmmi.bomberman.common.tools.FileLoader;
-
+import java.util.*;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -31,7 +31,7 @@ public class Game implements ApplicationListener {
     public World world = new World();
     GameData gameData = new GameData();
     private SpriteBatch textureSpriteBatch;
-
+    private static Queue<Runnable> gdxThreadTasks = new LinkedList<>();
     private static final List<IEntityProcessingService> entityProcessorList = new CopyOnWriteArrayList<>();
     private static final List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
     private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
@@ -62,6 +62,7 @@ public class Game implements ApplicationListener {
        tiledMap = new TmxMapLoader().load(mapFiles[0]);
        renderer = new OrthogonalTiledMapRenderer(tiledMap);
        //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
+
     }
 
     @Override
@@ -120,13 +121,13 @@ public class Game implements ApplicationListener {
 
     public void addGamePluginService(IGamePluginService plugin) {
         this.gamePluginList.add(plugin);
-        plugin.start(gameData, world);
+        gdxThreadTasks.add(() -> plugin.start(gameData, world));
 
     }
 
     public void removeGamePluginService(IGamePluginService plugin) {
         this.gamePluginList.remove(plugin);
-        plugin.stop(gameData, world);
+        gdxThreadTasks.add(() -> plugin.stop(gameData, world));
     }
 
     public SpriteBatch getTextureSpriteBatch() {

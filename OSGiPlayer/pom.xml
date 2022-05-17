@@ -33,19 +33,14 @@
     -->
     <dependency>
       <groupId>org.osgi</groupId>
-      <artifactId>osgi_R4_core</artifactId>
-      <optional>true</optional>
+      <artifactId>org.osgi.core</artifactId>
+      <version>4.3.0</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>osgi_R4_compendium</artifactId>
-      <optional>true</optional>
-    </dependency>
-    <dependency>
-      <groupId>dk.sdu.mmmi.bomberman.Bomberman</groupId>
-      <artifactId>dk.sdu.mmmi.bomberman.OSGiCommonPlayer</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <scope>compile</scope>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>OSGiLibGDX</artifactId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
