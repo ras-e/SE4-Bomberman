@@ -4,36 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/Bomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/BombPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/NormalBomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/internal/BombActivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/internal/BombProcessingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/entities/Explosion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/parts/InventoryPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/services/BombSPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiExplosion/osgi.bnd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiExplosion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiExplosion/src/main/java/dk/sdu/mmmi/bomberman/OSGiExplosion/ExplosionPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiExplosion/src/main/java/dk/sdu/mmmi/bomberman/OSGiExplosion/ExplosionProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OSGiExplosion/src/main/resources/readme.txt" afterDir="false" />
+    <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="Start of Bomb implementation">
+      <change afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/BombExpirationPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/ExplosionTexturePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/OSGiCommonPlayer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiBomb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiPlayer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/entities/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/BombPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/BombPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/NormalBomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/NormalBomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/internal/BombActivator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiBomb/internal/BombProcessingSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/entities/Explosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommonBomb/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonBomb/parts/InventoryPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiExplosion/osgi.bnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiExplosion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiExplosion/src/main/java/dk/sdu/mmmi/bomberman/OSGiExplosion/ExplosionPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiExplosion/src/main/java/dk/sdu/mmmi/bomberman/OSGiExplosion/ExplosionProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiExplosion/src/main/resources/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonPlayer/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/src/main/java/dk/sdu/mmmi/bomberman/OSGiCommonPlayer/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dk.sdu.mmmi.bomberman.OSGiCommonPlayer/src/main/resources/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonPlayer/src/main/resources/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +110,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/OSGiCommon/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.sdu.mmmi.bomberman.OSGiCommonBomb.entities" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -219,8 +212,18 @@
       <workItem from="1651826912874" duration="385000" />
       <workItem from="1652171992564" duration="3366000" />
       <workItem from="1652344822305" duration="9493000" />
-      <workItem from="1652430324132" duration="15164000" />
+      <workItem from="1652430324132" duration="16575000" />
+      <workItem from="1652691333376" duration="11872000" />
+      <workItem from="1652858842859" duration="682000" />
     </task>
+    <task id="LOCAL-00001" summary="Start of Bomb implementation">
+      <created>1652515566795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652515566795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +245,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Start of Bomb implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start of Bomb implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

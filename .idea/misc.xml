@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/OSGiCollision/pom.xml" />
         <option value="$PROJECT_DIR$/OSGiEnemy/pom.xml" />
-        <option value="$PROJECT_DIR$/OSGiExplosion/pom.xml" />
       </list>
     </option>
   </component>

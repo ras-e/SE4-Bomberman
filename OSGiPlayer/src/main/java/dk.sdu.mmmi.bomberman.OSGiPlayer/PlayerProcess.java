@@ -11,7 +11,6 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.TexturePart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.bomberman.OSGiCommonBomb.parts.InventoryPart;
 
 public class PlayerProcess implements IEntityProcessingService {
 
@@ -25,7 +24,6 @@ public class PlayerProcess implements IEntityProcessingService {
             MovingPart movingPart = entity.getPart(MovingPart.class);
             LifePart lifePart = entity.getPart(LifePart.class);
             TexturePart texturePart = entity.getPart(TexturePart.class);
-            InventoryPart inventoryPart = entity.getPart(InventoryPart.class);
 
             //tells the movingpart, the entitypart, when a key is pressed
             movingPart.setUp(Gdx.input.isKeyPressed(Input.Keys.W));

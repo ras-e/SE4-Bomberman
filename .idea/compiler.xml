@@ -10,7 +10,6 @@
         <module name="dk.sdu.mmmi.bomberman.OSGiCommonMap" />
         <module name="OSGiEnemy" />
         <module name="OSGiCollision" />
-        <module name="OSGiExplosion" />
         <module name="dk.sdu.mmmi.bomberman.OSGiMap" />
         <module name="OSGiCommonAI" />
         <module name="OSGiCommonEnemy" />
@@ -20,6 +19,7 @@
         <module name="OSGICommonEnemy" />
         <module name="OSGiAI" />
         <module name="OSGiCommon" />
+        <module name="dk.sdu.mmmi.bomberman.OSGiCommonPlayer" />
         <module name="OSGiCommonBomb" />
         <module name="OSGiCore" />
         <module name="Enemy" />
@@ -36,6 +36,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="OSGIEnemy" target="1.8" />
+      <module name="OSGiExplosion" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
