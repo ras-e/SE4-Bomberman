@@ -67,7 +67,6 @@ public class Game implements ApplicationListener {
 
     @Override
     public void render() {
-
        renderer.setView(cam);
        renderer.render();
        cam.update();
