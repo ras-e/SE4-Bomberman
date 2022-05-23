@@ -1,9 +1,14 @@
 package dk.sdu.mmmi.bomberman;
 
 import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.assets.loaders.resolvers.ExternalFileHandleResolver;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
@@ -18,6 +23,9 @@ import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 
 import dk.sdu.mmmi.bomberman.common.tools.FileLoader;
+import dk.sdu.mmmi.bomberman.common.utils.AssetsJarFileResolver;
+import dk.sdu.mmmi.bomberman.core.managers.GameInputProcessor;
+
 import java.util.*;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -35,7 +43,8 @@ public class Game implements ApplicationListener {
     private static final List<IEntityProcessingService> entityProcessorList = new CopyOnWriteArrayList<>();
     private static final List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
     private static List<IPostEntityProcessingService> postEntityProcessorList = new CopyOnWriteArrayList<>();
-    
+    private ShapeRenderer sr;
+
     public Game() {
         init();
     }
@@ -52,28 +61,35 @@ public class Game implements ApplicationListener {
 
     @Override
     public void create() {
-       cam = new OrthographicCamera();
-       //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
-       cam.setToOrtho(false, 832, 704);
-       cam.update();
+        cam = new OrthographicCamera();
+        //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
+        cam.setToOrtho(false, 832, 704);
+        cam.update();
+        sr = new ShapeRenderer();
+        String[] mapFiles = {"assets/ColMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
+        FileLoader.loadFiles(mapFiles, getClass());
+        tiledMap = new TmxMapLoader().load(mapFiles[0]);
+        renderer = new OrthogonalTiledMapRenderer(tiledMap);
+        Gdx.input.setInputProcessor(new GameInputProcessor(gameData));
 
-       String[] mapFiles = {"assets/ColMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
-       FileLoader.loadFiles(mapFiles, getClass());
-       tiledMap = new TmxMapLoader().load(mapFiles[0]);
-       renderer = new OrthogonalTiledMapRenderer(tiledMap);
-       //texture = new Texture(Gdx.files.internal("/home/janpe20/Desktop/SE4-Bomberman/OSGiCore/src/main/resources/assets/jens.png").file().getAbsolutePath());
-
+        for (Runnable plug: gdxThreadTasks){
+            Thread thread = new Thread(plug);
+            thread.run();
+        }
     }
+
 
     @Override
     public void render() {
-       renderer.setView(cam);
-       renderer.render();
-       cam.update();
-       update();
+        renderer.setView(cam);
+        renderer.render();
+        cam.update();
+        update();
+        draw();
+        gameData.getKeys().update();
     }
 
-    private void update(){
+    private void update() {
         for (IEntityProcessingService entityProcessorService : entityProcessorList) {
             entityProcessorService.process(gameData, world);
         }
@@ -81,6 +97,21 @@ public class Game implements ApplicationListener {
         // Post Update
         for (IPostEntityProcessingService postEntityProcessorService : postEntityProcessorList) {
             postEntityProcessorService.process(gameData, world);
+        }
+    }
+
+    public void draw() {
+        for (Entity entity : world.getEntities()) {
+            sr.setColor(Color.BLUE);
+            sr.begin();
+            float[] shapex = entity.getShapeX();
+            float[] shapey = entity.getShapeY();
+            for (int i = 0, j = shapex.length - 1;
+                 i < shapex.length;
+                 j = i++) {
+                sr.line(shapex[i], shapey[i], shapex[j], shapey[j]);
+            }
+            sr.end();
         }
     }
 

@@ -2,9 +2,6 @@ package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
-import com.badlogic.gdx.utils.GdxRuntimeException;
-import dk.sdu.mmmi.bomberman.common.CatFileHandler;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.World;
@@ -62,13 +59,8 @@ public class PlayerPlugin implements IGamePluginService {
     }
 
     protected Texture loadSprite() {
-        try {
             String jarUrl = loadPlayerAssets();
             final Texture texture = assetManager.get(jarUrl);
-            this.texture = texture;
-        } catch (GdxRuntimeException e) {
-            System.out.println(e.getMessage());
-        }
         return texture;
     }
 

@@ -7,6 +7,7 @@ public class PositionPart implements EntityPart {
 
     private float x;
     private float y;
+    private float radians;
 
     // sets the x and y coordinate for the entity
     public PositionPart(float x, float y) {
