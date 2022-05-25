@@ -1,97 +1,75 @@
 package dk.sdu.mmmi.bomberman.common.data.entityparts;
 
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 
+import static java.lang.Math.*;
+
 public class MovingPart implements EntityPart {
 
-    private float delta = Gdx.graphics.getDeltaTime();
-    private float speed;
-    private boolean up, down, left, right;
+    private float dx, dy;
+    private float deceleration, acceleration;
+    private float maxSpeed, rotationSpeed;
+    private boolean left, right, up, down;
 
-    //Collision detection
-    private float lastX, lastY;
-    private boolean isInWalls;
-
-    public MovingPart(float speed) {
-        this.speed = speed;
+    public MovingPart(float deceleration, float acceleration, float maxSpeed, float rotationSpeed) {
+        this.deceleration = deceleration;
+        this.acceleration = acceleration;
+        this.maxSpeed = maxSpeed;
+        this.rotationSpeed = rotationSpeed;
     }
 
-    //The sets check whether or not a corresponding key has been pressed
-    public void setUp(boolean up) {
-        if (up == Gdx.input.isKeyPressed(Input.Keys.W)){
-            this.up = up;
-        }
+    public void setDeceleration(float deceleration) {
+        this.deceleration = deceleration;
     }
 
-    public void setDown(boolean down) {
-        if (down == Gdx.input.isKeyPressed(Input.Keys.S)){
-            this.down = down;
-        }
+    public void setAcceleration(float acceleration) {
+        this.acceleration = acceleration;
+    }
+
+    public void setMaxSpeed(float maxSpeed) {
+        this.maxSpeed = maxSpeed;
+    }
+
+    public void setRotationSpeed(float rotationSpeed) {
+        this.rotationSpeed = rotationSpeed;
     }
 
     public void setLeft(boolean left) {
-        if (left == Gdx.input.isKeyPressed(Input.Keys.D)){
-            this.left = left;
-        }
+        this.left = left;
     }
 
     public void setRight(boolean right) {
-        if (right == Gdx.input.isKeyPressed(Input.Keys.A)){
-            this.right = right;
-        }
+        this.right = right;
+    }
+
+    public void setUp(boolean up) {
+        this.up = up;
     }
 
     @Override
     public void process(GameData gameData, Entity entity) {
-        speed = 50f;
         PositionPart positionPart = entity.getPart(PositionPart.class);
         float x = positionPart.getX();
         float y = positionPart.getY();
+        float radians = positionPart.getRadians();
+        float dt = gameData.getDelta();
 
-        //essentially if the directions are true the process calculate their now position
-
-        if (up) {
-            y += delta * speed;
+        if (left){
+            dx -= acceleration * dy;
         }
-        if (down) {
-            y -= delta * speed;
+        if (right){
+            dx += acceleration * dy;
         }
-        if (right) {
-            x -= delta * speed;
+        if (up){
+            dy -= acceleration * dx;
         }
-        if (left) {
-            x -= delta * speed;
+        if (down){
+            dy += acceleration * dx;
         }
-        //tells the PositionPart where the entities new position should be
-        positionPart.setX(x);
+        x += dx * dy;
+        y += dx * dy;
         positionPart.setY(y);
+        positionPart.setX(x);
     }
-
-    public boolean isInWalls() {
-        return isInWalls;
-    }
-
-    public void setIsInWalls(boolean isInWalls) {
-        this.isInWalls = isInWalls;
-    }
-
-    public float getLastX() {
-        return lastX;
-    }
-
-    public void setLastX(float lastX) {
-        this.lastX = lastX;
-    }
-
-    public float getLastY() {
-        return lastY;
-    }
-
-    public void setLastY(float lastY) {
-        this.lastY = lastY;
-    }
-
 }

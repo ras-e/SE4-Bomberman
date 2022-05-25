@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="dk.sdu.mmmi.bomberman.OSGiPlayer.PlayerPlugin">
-    <implementation class="dk.sdu.mmmi.bomberman.OSGiPlayer.PlayerPlugin2"/>
+    <implementation class="dk.sdu.mmmi.bomberman.OSGiPlayer.PlayerPlugin"/>
     <service>
         <provide interface="dk.sdu.mmmi.bomberman.common.services.IGamePluginService"/>
     </service>

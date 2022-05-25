@@ -62,7 +62,6 @@ public class Game implements ApplicationListener {
     @Override
     public void create() {
         cam = new OrthographicCamera();
-        //viewportwidth and -height matches the exact height and width of the map. Do you change the size of the map, change here too
         cam.setToOrtho(false, 832, 704);
         cam.update();
         sr = new ShapeRenderer();
@@ -72,7 +71,7 @@ public class Game implements ApplicationListener {
         renderer = new OrthogonalTiledMapRenderer(tiledMap);
         Gdx.input.setInputProcessor(new GameInputProcessor(gameData));
 
-        for (Runnable plug: gdxThreadTasks){
+        for (Runnable plug : gdxThreadTasks) {
             Thread thread = new Thread(plug);
             thread.run();
         }
@@ -102,15 +101,19 @@ public class Game implements ApplicationListener {
 
     public void draw() {
         for (Entity entity : world.getEntities()) {
-            sr.setColor(Color.BLUE);
-            sr.begin();
+
+            sr.begin(ShapeRenderer.ShapeType.Line);
+
             float[] shapex = entity.getShapeX();
             float[] shapey = entity.getShapeY();
+
             for (int i = 0, j = shapex.length - 1;
                  i < shapex.length;
                  j = i++) {
+
                 sr.line(shapex[i], shapey[i], shapex[j], shapey[j]);
             }
+
             sr.end();
         }
     }
