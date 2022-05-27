@@ -31,6 +31,7 @@
     <bytecodeTargetLevel>
       <module name="dk.sdu.mmmi.bomberman.OSGiCommonMap" target="1.8" />
       <module name="dk.sdu.mmmi.bomberman.OSGiCommonPlayer" target="1.8" />
+      <module name="dk.sdu.mmmi.bomberman.OSGiMap" target="1.8" />
       <module name="OSGIEnemy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
