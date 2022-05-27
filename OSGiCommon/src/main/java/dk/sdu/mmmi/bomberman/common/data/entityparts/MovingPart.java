@@ -1,15 +1,15 @@
 package dk.sdu.mmmi.bomberman.common.data.entityparts;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 
-import static java.lang.Math.*;
-
 public class MovingPart implements EntityPart {
-
-    private float dx, dy;
-    private float deceleration, acceleration;
-    private float maxSpeed, rotationSpeed;
+    private float deceleration;
+    private float acceleration = 25;
+    private float maxSpeed = 75;
+    private float rotationSpeed;
     private boolean left, right, up, down;
 
     public MovingPart(float deceleration, float acceleration, float maxSpeed, float rotationSpeed) {
@@ -47,29 +47,41 @@ public class MovingPart implements EntityPart {
         this.up = up;
     }
 
+    public void controls(Entity entity, float dt){
+        PositionPart part = entity.getPart(PositionPart.class);
+        if (Gdx.input.isKeyPressed(Input.Keys.W)){
+            float accele = part.getY()+acceleration*dt;
+            if (accele>maxSpeed){
+                part.setY(accele);
+            }
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.D)){
+            float accele = part.getX()+acceleration*dt;
+            if (accele>maxSpeed){
+                part.setX(accele);
+            }
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.S)){
+            float accele = part.getY()-acceleration*dt;
+            if (accele>maxSpeed){
+                part.setY(accele);
+            }
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.A)){
+            float accele = part.getX()-acceleration*dt;
+            if (accele>maxSpeed){
+                part.setX(accele);
+            }
+        }
+    }
+
     @Override
     public void process(GameData gameData, Entity entity) {
         PositionPart positionPart = entity.getPart(PositionPart.class);
         float x = positionPart.getX();
         float y = positionPart.getY();
         float radians = positionPart.getRadians();
-        float dt = gameData.getDelta();
-
-        if (left){
-            dx -= acceleration * dy;
-        }
-        if (right){
-            dx += acceleration * dy;
-        }
-        if (up){
-            dy -= acceleration * dx;
-        }
-        if (down){
-            dy += acceleration * dx;
-        }
-        x += dx * dy;
-        y += dx * dy;
-        positionPart.setY(y);
-        positionPart.setX(x);
+        final float dt = Gdx.graphics.getDeltaTime()*2000;
+        controls(entity,dt);
     }
 }

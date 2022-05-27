@@ -18,7 +18,6 @@ public class GameData {
     private boolean Evictory = false;
     private boolean Pvictory = false;
 
-
     //Sets the game status (gameover, victory)
     public void setEVictory(boolean gameOver) {
         this.Evictory = Evictory;
@@ -42,10 +41,6 @@ public class GameData {
 
     public GameKeys getKeys() {
         return keys;
-    }
-
-    public void setDelta(float delta) {
-        this.delta = delta;
     }
 
     public float getDelta() {
