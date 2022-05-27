@@ -12,6 +12,10 @@ public class MovingPart implements EntityPart {
     private float rotationSpeed;
     private boolean left, right, up, down;
 
+    //Collision detection
+    private float lastX, lastY;
+    private boolean isInWalls;
+
     public MovingPart(float deceleration, float acceleration, float maxSpeed, float rotationSpeed) {
         this.deceleration = deceleration;
         this.acceleration = acceleration;
@@ -83,5 +87,29 @@ public class MovingPart implements EntityPart {
         float radians = positionPart.getRadians();
         final float dt = Gdx.graphics.getDeltaTime()*2000;
         controls(entity,dt);
+    }
+
+    public boolean isInWalls() {
+        return isInWalls;
+    }
+
+    public void setIsInWalls(boolean isInWalls) {
+        this.isInWalls = isInWalls;
+    }
+
+    public float getLastX() {
+        return lastX;
+    }
+
+    public void setLastX(float lastX) {
+        this.lastX = lastX;
+    }
+
+    public float getLastY() {
+        return lastY;
+    }
+
+    public void setLastY(float lastY) {
+        this.lastY = lastY;
     }
 }
