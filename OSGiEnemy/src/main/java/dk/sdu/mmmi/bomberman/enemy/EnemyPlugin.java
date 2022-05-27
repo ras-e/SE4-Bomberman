@@ -6,7 +6,6 @@ import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.bomberman.common.data.entityparts.TexturePart;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 import dk.sdu.mmmi.bomberman.commonenemy.*;
 
@@ -37,13 +36,16 @@ public class EnemyPlugin implements IGamePluginService {
     private Entity createBomeberman(GameData gameData) {
         Entity enemyBomberman = new Enemy();
 
-        float speed = 200;
-        float x = 100;
-        float y = 64;
-        int life = 3;
-        enemyBomberman.add(new LifePart(life));
-        enemyBomberman.add(new MovingPart(speed));
-        enemyBomberman.add(new PositionPart(x, y));
+        float deacceleration = 10;
+        float acceleration = 2000;
+        float maxSpeed = 2000;
+        float rotationSpeed = 5;
+        float x = gameData.getDisplayWidth() / 2;
+        float y = gameData.getDisplayHeight() / 2;
+        float radians = 3.1415f / 2;
+        enemyBomberman.add(new LifePart(1));
+        enemyBomberman.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
+        enemyBomberman.add(new PositionPart(x, y, radians));
 
 
         return enemyBomberman;

@@ -53,19 +53,12 @@
         <module>provision</module>
         <module>OSGiLibGDX</module>
         <module>OSGiCommon</module>
-        <module>OSGiCommonEnemy</module>
-        <module>OSGiCommonMap</module>
-        <module>OSGiCommonPlayer</module>
-        <module>OSGiCommonBomb</module>
-        <module>OSGiCommonAI</module>
         <module>OSGiEnemy</module>
         <module>OSGiBomb</module>
         <module>OSGiAI</module>
-        <module>OSGiPathfinder</module>
         <module>OSGiCollision</module>
         <module>OSGiPlayer</module>
         <module>OSGiCore</module>
-        <module>OSGiMap</module>
     </modules>
 
     <build>
@@ -80,7 +73,7 @@
                     -->
                     <provision>
                         <param>--platform=felix</param>
-                        <param>--vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005</param>
+                      <param> --vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</param>
                     </provision>
                 </configuration>
                 <executions>
