@@ -59,6 +59,7 @@
     <module>OSGiCore</module>
     <module>OSGiMap</module>
     <module>OSGiCommonMap</module>
+    <module>OSGiCommonPlayer</module>
   </modules>
 
   <build>

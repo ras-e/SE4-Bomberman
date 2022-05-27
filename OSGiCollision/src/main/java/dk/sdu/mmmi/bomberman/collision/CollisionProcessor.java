@@ -1,6 +1,5 @@
 package dk.sdu.mmmi.bomberman.collision;
 
-
 import com.badlogic.gdx.maps.Map;
 import com.badlogic.gdx.maps.MapObjects;
 import com.badlogic.gdx.maps.objects.RectangleMapObject;

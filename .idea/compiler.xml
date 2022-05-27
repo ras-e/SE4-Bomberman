@@ -19,6 +19,7 @@
         <module name="Enemy" />
         <module name="OSGiPlayer" />
         <module name="OSGiBomb" />
+        <module name="OSGiCommonPlayer" />
         <module name="OSGiLibGDX" />
         <module name="OSGiCommonMap" />
       </profile>
@@ -30,7 +31,6 @@
       <module name="OSGiCommonAI" target="1.8" />
       <module name="OSGiCommonBomb" target="1.8" />
       <module name="OSGiCommonEnemy" target="1.8" />
-      <module name="OSGiCommonPlayer" target="1.8" />
       <module name="OSGIEnemy" target="1.8" />
       <module name="OSGiPathfinder" target="1.8" />
     </bytecodeTargetLevel>
