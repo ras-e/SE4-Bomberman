@@ -17,7 +17,7 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.TiledMapPart;
 import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
-import dk.sdu.mmmi.bomberman.OSGiMap.Tile;
+import dk.sdu.mmmi.bomberman.commonmap.Tile;
 
 public class CollisionProcessor implements IPostEntityProcessingService {
 
@@ -76,3 +76,4 @@ public class CollisionProcessor implements IPostEntityProcessingService {
         }
     }
 }
+

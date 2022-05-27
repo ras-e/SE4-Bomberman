@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/OSGiCore/src/main/resources/assets/ColMap.tmx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
@@ -191,6 +192,13 @@
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/config.ini" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collision/CollisionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collision/CollisionProcessor.java" afterDir="false" />
+>>>>>>> Collision-Wall
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,8 +296,12 @@
       <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/runner/stuff" />
       <recent name="$PROJECT_DIR$/runner" />
+=======
+      <recent name="D:\GitProjects\SE4-Bomberman\OSGiCore\src\main\resources\assets" />
+>>>>>>> Collision-Wall
       <recent name="$PROJECT_DIR$/OSGiCommon/src/main/resources" />
     </key>
   </component>
@@ -391,6 +403,7 @@
       <workItem from="1652171992564" duration="3366000" />
       <workItem from="1652429910156" duration="2230000" />
       <workItem from="1652555755857" duration="3590000" />
+      <workItem from="1652601538845" duration="14301000" />
     </task>
     <servers />
   </component>
@@ -410,7 +423,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
