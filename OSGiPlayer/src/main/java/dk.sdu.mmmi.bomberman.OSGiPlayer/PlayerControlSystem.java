@@ -24,6 +24,7 @@ public class PlayerControlSystem implements IEntityProcessingService {
             MovingPart movingPart = player.getPart(MovingPart.class);
             LifePart lifePart = player.getPart(LifePart.class);
 
+            //TODO are these setters actually used? if they are redudant we can remove them
             movingPart.setLeft(gameData.getKeys().isDown(LEFT));
             movingPart.setRight(gameData.getKeys().isDown(RIGHT));
             movingPart.setUp(gameData.getKeys().isDown(UP));

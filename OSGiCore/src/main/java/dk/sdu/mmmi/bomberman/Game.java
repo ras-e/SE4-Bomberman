@@ -2,14 +2,9 @@ package dk.sdu.mmmi.bomberman;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.assets.loaders.resolvers.ExternalFileHandleResolver;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.maps.tiled.*;
@@ -19,11 +14,8 @@ import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
-
 import dk.sdu.mmmi.bomberman.common.data.Entity;
-
 import dk.sdu.mmmi.bomberman.common.tools.FileLoader;
-import dk.sdu.mmmi.bomberman.common.utils.AssetsJarFileResolver;
 import dk.sdu.mmmi.bomberman.core.managers.GameInputProcessor;
 
 import java.util.*;
@@ -83,9 +75,9 @@ public class Game implements ApplicationListener {
         renderer.setView(cam);
         renderer.render();
         cam.update();
+        gameData.getKeys().update();
         update();
         draw();
-        gameData.getKeys().update();
     }
 
     private void update() {
