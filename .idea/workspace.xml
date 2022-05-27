@@ -116,10 +116,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="OSGiMap" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="OSGiMap" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
       <option name="passParentEnvironments" value="true" />
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="true" />
+      <option name="buildType" value="" />
+      <option name="bundleLocation" value="" />
+      <option name="developerMode" value="true" />
+      <option name="gogoShellPort" value="11311" />
+      <option name="passParentEnvironments" value="true" />
+      <option name="vmParameters" value="-Xmx2560m" />
+      <module name="OSGiMap" />
+      <method v="2">
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
     </configuration>
     <configuration name="Bomberman [pax:provision]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
