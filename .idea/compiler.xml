@@ -15,6 +15,7 @@
         <module name="OSGiAI" />
         <module name="OSGiCommon" />
         <module name="OSGiMap" />
+        <module name="OSGiCommonBomb" />
         <module name="OSGiCore" />
         <module name="Enemy" />
         <module name="OSGiPlayer" />
@@ -29,7 +30,6 @@
       <module name="dk.sdu.mmmi.bomberman.OSGiCommonPlayer" target="1.8" />
       <module name="dk.sdu.mmmi.bomberman.OSGiMap" target="1.8" />
       <module name="OSGiCommonAI" target="1.8" />
-      <module name="OSGiCommonBomb" target="1.8" />
       <module name="OSGiCommonEnemy" target="1.8" />
       <module name="OSGIEnemy" target="1.8" />
       <module name="OSGiPathfinder" target="1.8" />

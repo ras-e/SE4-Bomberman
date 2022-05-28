@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
   <parent>
     <relativePath>../poms/compiled/pom.xml</relativePath>
     <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
@@ -9,15 +8,15 @@
   </parent>
 
   <properties>
-    <bundle.symbolicName>dk.sdu.mmmi.bomberman.bomb</bundle.symbolicName>
+    <bundle.symbolicName>dk.sdu.mmmi.bomberman.OSGiCommonBomb</bundle.symbolicName>
     <bundle.namespace>dk.sdu.mmmi.bomberman</bundle.namespace>
   </properties>
 
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>OSGiBomb</artifactId>
+  <artifactId>OSGiCommonBomb</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>OSGiBomb</name>
+  <name>OSGiCommonBomb</name>
 
   <packaging>bundle</packaging>
 
@@ -36,24 +35,12 @@
       <artifactId>osgi_R4_compendium</artifactId>
       <optional>true</optional>
     </dependency>
-      <dependency>
-          <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-          <artifactId>OSGiCommon</artifactId>
-          <version>1.0-SNAPSHOT</version>
-          <scope>compile</scope>
-      </dependency>
     <dependency>
       <groupId>dk.sdu.mmmi.bomberman.Bomberman.build</groupId>
-      <artifactId>OSGiCommonBomb</artifactId>
+      <artifactId>OSGiCommon</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
-      <dependency>
-          <groupId>org.osgi</groupId>
-          <artifactId>org.osgi.core</artifactId>
-          <version>4.3.0</version>
-          <scope>compile</scope>
-      </dependency>
   </dependencies>
 
 </project>

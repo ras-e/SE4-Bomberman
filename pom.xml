@@ -60,6 +60,7 @@
     <module>OSGiMap</module>
     <module>OSGiCommonMap</module>
     <module>OSGiCommonPlayer</module>
+    <module>OSGiCommonBomb</module>
   </modules>
 
   <build>
