@@ -20,8 +20,8 @@
         <module name="OSGiPlayer" />
         <module name="OSGiBomb" />
         <module name="OSGiCommonPlayer" />
-        <module name="OSGiLibGDX" />
         <module name="OSGiCommonMap" />
+        <module name="OSGiLibGDX" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +33,7 @@
       <module name="OSGiCommonEnemy" target="1.8" />
       <module name="OSGIEnemy" target="1.8" />
       <module name="OSGiPathfinder" target="1.8" />
+      <module name="SE4-Bomberman" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
