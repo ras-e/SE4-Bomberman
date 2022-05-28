@@ -8,7 +8,7 @@ import dk.sdu.mmmi.bomberman.common.data.GameData;
 public class MovingPart implements EntityPart {
     private float deceleration;
     private float acceleration = 2F;
-    private float maxSpeed = 1F;
+    private float maxSpeed = 0.1F;
     private float rotationSpeed;
 
     //Collision detection
@@ -42,27 +42,20 @@ public class MovingPart implements EntityPart {
         PositionPart part = entity.getPart(PositionPart.class);
 
         if (Gdx.input.isKeyPressed(Input.Keys.W)) {
-            float newCord = part.getY() + Gdx.graphics.getDeltaTime() * maxSpeed;
+            float newCord = part.getY() + 1F;
             part.setY(newCord);
         }
-
         if (Gdx.input.isKeyPressed(Input.Keys.D)) {
-            float accele = part.getX() + acceleration * dt;
-            if (accele > maxSpeed) {
-                part.setX(accele);
-            }
+            float newCord = part.getX() + 1F;
+            part.setX(newCord);
         }
         if (Gdx.input.isKeyPressed(Input.Keys.S)) {
-            float accele = part.getY() - acceleration * dt;
-            if (accele > maxSpeed) {
-                part.setY(accele);
-            }
+            float newCord = part.getY() - 1F;
+            part.setY(newCord);
         }
         if (Gdx.input.isKeyPressed(Input.Keys.A)) {
-            float accele = part.getX() - acceleration * dt;
-            if (accele > maxSpeed) {
-                part.setX(accele);
-            }
+            float newCord = part.getX() - 1F;
+            part.setX(newCord);
         }
     }
 
