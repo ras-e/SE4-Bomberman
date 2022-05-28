@@ -16,7 +16,7 @@ import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 import dk.sdu.mmmi.bomberman.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.tools.FileLoader;
-import dk.sdu.mmmi.bomberman.core.managers.GameInputProcessor;
+//import dk.sdu.mmmi.bomberman.core.managers.GameInputProcessor;
 
 import java.util.*;
 import java.util.List;
@@ -44,24 +44,34 @@ public class Game implements ApplicationListener {
     public void init() {
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
         cfg.title = "Bomberman";
-        cfg.width = 800;
-        cfg.height = 600;
+        cfg.width = 480;
+        cfg.height = 416;
         cfg.resizable = false;
 
         new LwjglApplication(this, cfg);
     }
 
+    TiledMapRenderer tiledMapRenderer;
+
     @Override
     public void create() {
+
+        float w = Gdx.graphics.getWidth();
+        float h = Gdx.graphics.getHeight();
+
         cam = new OrthographicCamera();
-        cam.setToOrtho(false, 832, 704);
+        cam.setToOrtho(false, w, h);
         cam.update();
         sr = new ShapeRenderer();
-        String[] mapFiles = {"assets/ColMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
+        String[] mapFiles = {"assets/BombermanMap.tmx", "assets/background.png", "assets/bomb.png", "assets/explosion.png"};
         FileLoader.loadFiles(mapFiles, getClass());
         tiledMap = new TmxMapLoader().load(mapFiles[0]);
+
+
+
+
         renderer = new OrthogonalTiledMapRenderer(tiledMap);
-        Gdx.input.setInputProcessor(new GameInputProcessor(gameData));
+        //Gdx.input.setInputProcessor(new GameInputProcessor(gameData));
 
         for (Runnable plug : gdxThreadTasks) {
             Thread thread = new Thread(plug);
@@ -75,7 +85,7 @@ public class Game implements ApplicationListener {
         renderer.setView(cam);
         renderer.render();
         cam.update();
-        gameData.getKeys().update();
+        //gameData.getKeys().update();
         update();
         draw();
     }

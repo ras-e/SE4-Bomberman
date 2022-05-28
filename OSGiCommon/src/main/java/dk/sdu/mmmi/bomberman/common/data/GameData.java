@@ -12,7 +12,6 @@ public class GameData {
     private float delta;
     private int displayWidth;
     private int displayHeight;
-    private final GameKeys keys = new GameKeys();
     private List<Event> events = new CopyOnWriteArrayList<>();
     private List<IGamePluginService> gamePluginList = new CopyOnWriteArrayList<>();
     private boolean Evictory = false;
@@ -37,10 +36,6 @@ public class GameData {
 
     public List<Event> getEvents() {
         return events;
-    }
-
-    public GameKeys getKeys() {
-        return keys;
     }
 
     public float getDelta() {

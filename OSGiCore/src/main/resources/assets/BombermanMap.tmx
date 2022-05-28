@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="15" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="4">
+ <tileset firstgid="1" name="bomb" tilewidth="28" tileheight="28" tilecount="1" columns="1">
+  <image source="bomb.png" width="28" height="28"/>
+ </tileset>
+ <tileset firstgid="2" name="explosion" tilewidth="32" tileheight="32" tilecount="55" columns="11">
+  <image source="explosion.png" width="352" height="160"/>
+ </tileset>
+ <tileset firstgid="57" name="background" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+  <image source="background.png" width="192" height="160"/>
+ </tileset>
+ <layer id="1" name="Map" width="15" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxzZGBgcBzFo3gUMwAA2AkxhA==
+  </data>
+ </layer>
+ <layer id="2" name="CollisionLayer" width="15" height="13">
+  <data encoding="base64" compression="zlib">
+   eJyzZGBgsKQAkwOQ9ZJDj9o7ai8+e8nFAPmxEkM=
+  </data>
+ </layer>
+</map>

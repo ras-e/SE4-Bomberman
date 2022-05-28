@@ -4,7 +4,6 @@ import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
-import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 
@@ -30,8 +29,7 @@ public class PlayerPlugin implements IGamePluginService {
 
         Entity playerShip = new Player();
         playerShip.setRadius(8);
-        playerShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
-        playerShip.add(new PositionPart(x, y, radians));
+        playerShip.add(new PositionPart(x, y));
         playerShip.add(new LifePart(1));
         
         return playerShip;

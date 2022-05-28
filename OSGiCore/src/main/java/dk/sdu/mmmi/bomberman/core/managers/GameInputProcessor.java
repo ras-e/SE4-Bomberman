@@ -1,3 +1,4 @@
+/*
 package dk.sdu.mmmi.bomberman.core.managers;
 
 import com.badlogic.gdx.Input.Keys;
@@ -70,3 +71,4 @@ public class GameInputProcessor extends InputAdapter {
     }
 
 }
+*/

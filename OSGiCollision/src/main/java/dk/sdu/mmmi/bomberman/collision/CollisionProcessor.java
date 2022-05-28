@@ -1,3 +1,4 @@
+/*
 package dk.sdu.mmmi.bomberman.collision;
 
 
@@ -75,4 +76,4 @@ public class CollisionProcessor implements IPostEntityProcessingService {
             }
         }
     }
-}
+}*/

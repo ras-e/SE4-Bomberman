@@ -1,14 +1,13 @@
 package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
-import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
-
-import static dk.sdu.mmmi.bomberman.common.data.GameKeys.*;
 
 /**
  *
@@ -16,25 +15,45 @@ import static dk.sdu.mmmi.bomberman.common.data.GameKeys.*;
  */
 public class PlayerControlSystem implements IEntityProcessingService {
 
+    //private final static AssetLoader assetLoader = AssetLoader.getInstance(MODULE_NAME);
+    private static final float acceleration = 150F;
+    private static final float maxAcceleration = 75F;
+
     @Override
     public void process(GameData gameData, World world) {
 
         for (Entity player : world.getEntities(Player.class)) {
             PositionPart positionPart = player.getPart(PositionPart.class);
-            MovingPart movingPart = player.getPart(MovingPart.class);
             LifePart lifePart = player.getPart(LifePart.class);
 
-            //TODO are these setters actually used? if they are redudant we can remove them
-            movingPart.setLeft(gameData.getKeys().isDown(LEFT));
-            movingPart.setRight(gameData.getKeys().isDown(RIGHT));
-            movingPart.setUp(gameData.getKeys().isDown(UP));
-            
-            
-            movingPart.process(gameData, player);
+            final float delta = gameData.getDelta();
+
+            float x = positionPart.getX();
+            float y = positionPart.getY();
+
+            controls(player, delta);
+
             positionPart.process(gameData, player);
             lifePart.process(gameData, player);
 
             updateShape(player);
+        }
+    }
+
+    public void controls(Entity player, float delta){
+        PositionPart part = player.getPart(PositionPart.class);
+
+        if(Gdx.input.isKeyPressed(Input.Keys.W)){
+            part.setY(part.getY() + 10F * delta);
+        }
+        if(Gdx.input.isKeyPressed(Input.Keys.A)){
+            part.setX(part.getX() - 10F * delta);
+        }
+        if(Gdx.input.isKeyPressed(Input.Keys.S)){
+            part.setY(part.getY() - 10F * delta);
+        }
+        if(Gdx.input.isKeyPressed(Input.Keys.D)){
+            part.setX(part.getX() + 10F * delta);
         }
     }
 
