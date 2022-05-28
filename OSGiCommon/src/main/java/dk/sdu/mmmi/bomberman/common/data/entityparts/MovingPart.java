@@ -7,8 +7,8 @@ import dk.sdu.mmmi.bomberman.common.data.GameData;
 
 public class MovingPart implements EntityPart {
     private float deceleration;
-    private float acceleration = 25;
-    private float maxSpeed = 75;
+    private float acceleration = 2F;
+    private float maxSpeed = 1F;
     private float rotationSpeed;
 
     //Collision detection
@@ -38,33 +38,34 @@ public class MovingPart implements EntityPart {
         this.rotationSpeed = rotationSpeed;
     }
 
-    public void controls(Entity entity, float dt){
+    public void controls(Entity entity, float dt) {
         PositionPart part = entity.getPart(PositionPart.class);
-        if (Gdx.input.isKeyPressed(Input.Keys.W)){
-            float accele = part.getY()+acceleration*dt;
-            if (accele>maxSpeed){
-                part.setY(accele);
-            }
+
+        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
+            float newCord = part.getY() + Gdx.graphics.getDeltaTime() * maxSpeed;
+            part.setY(newCord);
         }
-        if (Gdx.input.isKeyPressed(Input.Keys.D)){
-            float accele = part.getX()+acceleration*dt;
-            if (accele>maxSpeed){
+
+        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
+            float accele = part.getX() + acceleration * dt;
+            if (accele > maxSpeed) {
                 part.setX(accele);
             }
         }
-        if (Gdx.input.isKeyPressed(Input.Keys.S)){
-            float accele = part.getY()-acceleration*dt;
-            if (accele>maxSpeed){
+        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
+            float accele = part.getY() - acceleration * dt;
+            if (accele > maxSpeed) {
                 part.setY(accele);
             }
         }
-        if (Gdx.input.isKeyPressed(Input.Keys.A)){
-            float accele = part.getX()-acceleration*dt;
-            if (accele>maxSpeed){
+        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
+            float accele = part.getX() - acceleration * dt;
+            if (accele > maxSpeed) {
                 part.setX(accele);
             }
         }
     }
+
 
     @Override
     public void process(GameData gameData, Entity entity) {
