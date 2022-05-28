@@ -7,6 +7,7 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
+import dk.sdu.mmmi.bomberman.commonplayer.Player;
 
 public class PlayerPlugin implements IGamePluginService {
     private Entity player;

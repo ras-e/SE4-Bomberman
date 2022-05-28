@@ -10,7 +10,6 @@ public class MovingPart implements EntityPart {
     private float acceleration = 25;
     private float maxSpeed = 75;
     private float rotationSpeed;
-    private boolean left, right, up, down;
 
     //Collision detection
     private float lastX, lastY;
@@ -19,7 +18,7 @@ public class MovingPart implements EntityPart {
     public MovingPart(float deceleration, float acceleration, float maxSpeed, float rotationSpeed) {
         this.deceleration = deceleration;
         this.acceleration = acceleration;
-        this.maxSpeed = maxSpeed;
+        this.maxSpeed = maxSpeed*2;
         this.rotationSpeed = rotationSpeed;
     }
 
@@ -37,18 +36,6 @@ public class MovingPart implements EntityPart {
 
     public void setRotationSpeed(float rotationSpeed) {
         this.rotationSpeed = rotationSpeed;
-    }
-
-    public void setLeft(boolean left) {
-        this.left = left;
-    }
-
-    public void setRight(boolean right) {
-        this.right = right;
-    }
-
-    public void setUp(boolean up) {
-        this.up = up;
     }
 
     public void controls(Entity entity, float dt){
@@ -85,7 +72,7 @@ public class MovingPart implements EntityPart {
         float x = positionPart.getX();
         float y = positionPart.getY();
         float radians = positionPart.getRadians();
-        final float dt = Gdx.graphics.getDeltaTime()*2000;
+        final float dt = Gdx.graphics.getDeltaTime()*10;
         controls(entity,dt);
     }
 
