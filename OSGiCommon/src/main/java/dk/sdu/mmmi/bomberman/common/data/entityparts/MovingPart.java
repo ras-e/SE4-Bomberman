@@ -38,7 +38,8 @@ public class MovingPart implements EntityPart {
         this.rotationSpeed = rotationSpeed;
     }
 
-    public void controls(Entity entity, float dt) {
+
+    public void controls(Entity entity, float dt){
         PositionPart part = entity.getPart(PositionPart.class);
 
         if (Gdx.input.isKeyPressed(Input.Keys.W)) {
