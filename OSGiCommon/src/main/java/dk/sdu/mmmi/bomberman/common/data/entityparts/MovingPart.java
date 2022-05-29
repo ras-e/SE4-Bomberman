@@ -1,21 +1,24 @@
 package dk.sdu.mmmi.bomberman.common.data.entityparts;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 
-import static java.lang.Math.*;
-
 public class MovingPart implements EntityPart {
+    private float deceleration;
+    private float acceleration = 2F;
+    private float maxSpeed = 0.1F;
+    private float rotationSpeed;
 
-    private float dx, dy;
-    private float deceleration, acceleration;
-    private float maxSpeed, rotationSpeed;
-    private boolean left, right, up, down;
+    //Collision detection
+    private float lastX, lastY;
+    private boolean isInWalls;
 
     public MovingPart(float deceleration, float acceleration, float maxSpeed, float rotationSpeed) {
         this.deceleration = deceleration;
         this.acceleration = acceleration;
-        this.maxSpeed = maxSpeed;
+        this.maxSpeed = maxSpeed*2;
         this.rotationSpeed = rotationSpeed;
     }
 
@@ -35,17 +38,27 @@ public class MovingPart implements EntityPart {
         this.rotationSpeed = rotationSpeed;
     }
 
-    public void setLeft(boolean left) {
-        this.left = left;
+    public void controls(Entity entity, float dt) {
+        PositionPart part = entity.getPart(PositionPart.class);
+
+        if (Gdx.input.isKeyPressed(Input.Keys.W)) {
+            float newCord = part.getY() + 1F;
+            part.setY(newCord);
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.D)) {
+            float newCord = part.getX() + 1F;
+            part.setX(newCord);
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.S)) {
+            float newCord = part.getY() - 1F;
+            part.setY(newCord);
+        }
+        if (Gdx.input.isKeyPressed(Input.Keys.A)) {
+            float newCord = part.getX() - 1F;
+            part.setX(newCord);
+        }
     }
 
-    public void setRight(boolean right) {
-        this.right = right;
-    }
-
-    public void setUp(boolean up) {
-        this.up = up;
-    }
 
     @Override
     public void process(GameData gameData, Entity entity) {
@@ -53,23 +66,31 @@ public class MovingPart implements EntityPart {
         float x = positionPart.getX();
         float y = positionPart.getY();
         float radians = positionPart.getRadians();
-        float dt = gameData.getDelta();
+        final float dt = Gdx.graphics.getDeltaTime()*10;
+        controls(entity,dt);
+    }
 
-        if (left){
-            dx -= acceleration * dy;
-        }
-        if (right){
-            dx += acceleration * dy;
-        }
-        if (up){
-            dy -= acceleration * dx;
-        }
-        if (down){
-            dy += acceleration * dx;
-        }
-        x += dx * dy;
-        y += dx * dy;
-        positionPart.setY(y);
-        positionPart.setX(x);
+    public boolean isInWalls() {
+        return isInWalls;
+    }
+
+    public void setIsInWalls(boolean isInWalls) {
+        this.isInWalls = isInWalls;
+    }
+
+    public float getLastX() {
+        return lastX;
+    }
+
+    public void setLastX(float lastX) {
+        this.lastX = lastX;
+    }
+
+    public float getLastY() {
+        return lastY;
+    }
+
+    public void setLastY(float lastY) {
+        this.lastY = lastY;
     }
 }

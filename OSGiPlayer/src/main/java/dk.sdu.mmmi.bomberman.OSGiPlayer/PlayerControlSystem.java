@@ -7,6 +7,7 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.bomberman.commonplayer.Player;
 
 import static dk.sdu.mmmi.bomberman.common.data.GameKeys.*;
 
@@ -23,11 +24,6 @@ public class PlayerControlSystem implements IEntityProcessingService {
             PositionPart positionPart = player.getPart(PositionPart.class);
             MovingPart movingPart = player.getPart(MovingPart.class);
             LifePart lifePart = player.getPart(LifePart.class);
-
-            movingPart.setLeft(gameData.getKeys().isDown(LEFT));
-            movingPart.setRight(gameData.getKeys().isDown(RIGHT));
-            movingPart.setUp(gameData.getKeys().isDown(UP));
-            
             
             movingPart.process(gameData, player);
             positionPart.process(gameData, player);
