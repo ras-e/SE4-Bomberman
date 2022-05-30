@@ -102,7 +102,6 @@ public class Game implements ApplicationListener {
         for (Entity entity : world.getEntities()) {
             sr.begin(ShapeRenderer.ShapeType.Line);
 
-
             float[] shapex = entity.getShapeX();
             float[] shapey = entity.getShapeY();
 

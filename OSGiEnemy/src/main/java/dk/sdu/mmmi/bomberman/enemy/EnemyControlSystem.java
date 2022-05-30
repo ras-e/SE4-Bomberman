@@ -1,5 +1,6 @@
-package dk.sdu.mmmi.bomberman.OSGiPlayer;
+package dk.sdu.mmmi.bomberman.enemy;
 
+import dk.sdu.mmmi.bomberman.commonenemy.Enemy;
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.World;
@@ -7,27 +8,23 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.bomberman.commonplayer.Player;
 
-public class PlayerControlSystem implements IEntityProcessingService {
-
+public class EnemyControlSystem implements IEntityProcessingService {
     @Override
     public void process(GameData gameData, World world) {
+        for (Entity enemy : world.getEntities(Enemy.class)){
 
-        for (Entity player : world.getEntities(Player.class)) {
+            PositionPart positionPart = enemy.getPart(PositionPart.class);
+            MovingPart movingPart = enemy.getPart(MovingPart.class);
+            LifePart lifePart = enemy.getPart(LifePart.class);
 
-            PositionPart positionPart = player.getPart(PositionPart.class);
-            MovingPart movingPart = player.getPart(MovingPart.class);
-            LifePart lifePart = player.getPart(LifePart.class);
-            
-            movingPart.process(gameData, player);
-            positionPart.process(gameData, player);
-            lifePart.process(gameData, player);
+            movingPart.process(gameData, enemy);
+            positionPart.process(gameData, enemy);
+            lifePart.process(gameData, enemy);
 
-            updateShape(player);
+            updateShape(enemy);
         }
     }
-
     private void updateShape(Entity entity) {
         float radius = entity.getRadius();
         float[] shapex = entity.getShapeX();
@@ -52,5 +49,4 @@ public class PlayerControlSystem implements IEntityProcessingService {
         entity.setShapeX(shapex);
         entity.setShapeY(shapey);
     }
-
 }
