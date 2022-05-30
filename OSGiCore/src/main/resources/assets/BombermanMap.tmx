@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="15" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="84">
+ <tileset firstgid="1" name="bomb" tilewidth="28" tileheight="28" tilecount="1" columns="1">
+  <image source="bomb.png" width="28" height="28"/>
+ </tileset>
+ <tileset firstgid="2" name="explosion" tilewidth="32" tileheight="32" tilecount="55" columns="11">
+  <image source="explosion.png" width="352" height="160"/>
+ </tileset>
+ <tileset firstgid="57" name="background" tilewidth="32" tileheight="32" tilecount="30" columns="6">
+  <image source="background.png" width="192" height="160"/>
+ </tileset>
+ <layer id="1" name="Map" width="15" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxzZGBgcBzFo3gUMwAA2AkxhA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Walls" locked="1">
+  <object id="19" name="blockedBottomWall" x="0" y="384" width="480" height="32">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="20" name="blockedRightWall" x="450.346" y="2.91359" width="28.7757" height="414.325">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="21" name="blockedLeftWall" x="1.8238" y="-1.81491" width="28.7757" height="418.378">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="22" name="blockedTopWall" x="0.47284" y="1.56262" width="480" height="27.9471">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="53" name="blocked" x="128.14" y="321.067" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="54" name="blocked" x="65.8769" y="319.882" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="55" name="blocked" x="65.0593" y="256.929" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="56" name="blocked" x="64.2417" y="193.975" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="57" name="blocked" x="65.8769" y="127.752" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="58" name="blocked" x="66.6944" y="63.9806" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="59" name="blocked" x="129.648" y="65.6157" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="60" name="blocked" x="194.237" y="63.9806" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="61" name="blocked" x="256.373" y="64.7981" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="62" name="blocked" x="321.779" y="63.9806" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="63" name="blocked" x="385.55" y="64.7981" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="64" name="blocked" x="128.83" y="128.569" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="66" name="blocked" x="193.419" y="128.569" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="67" name="blocked" x="257.19" y="129.387" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="68" name="blocked" x="320.961" y="128.569" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="69" name="blocked" x="384.732" y="129.387" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="70" name="blocked" x="129.648" y="191.523" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="71" name="blocked" x="193.419" y="192.34" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="72" name="blocked" x="257.19" y="193.158" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="73" name="blocked" x="320.961" y="193.158" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="74" name="blocked" x="385.55" y="193.975" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="75" name="blocked" x="384.732" y="258.564" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="76" name="blocked" x="384.732" y="322.335" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="77" name="blocked" x="317.691" y="321.518" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="78" name="blocked" x="320.144" y="258.564" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="79" name="blocked" x="258.008" y="256.111" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="80" name="blocked" x="255.555" y="319.882" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="81" name="blocked" x="191.784" y="320.7" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="82" name="blocked" x="192.601" y="256.111" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+  <object id="83" name="blocked" x="130.466" y="256.929" width="30.1267" height="30.649">
+   <properties>
+    <property name="blocked" type="bool" value="false"/>
+    <property name="wall" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Barrels"/>
+ <objectgroup id="6" name="Bombs"/>
+ <layer id="2" name="CollisionLayer" width="15" height="13">
+  <data encoding="base64" compression="zlib">
+   eJyzZGBgsKQAkwOQ9ZJDj9o7ai8+e8nFAPmxEkM=
+  </data>
+ </layer>
+</map>

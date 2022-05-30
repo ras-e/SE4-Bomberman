@@ -9,6 +9,7 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.services.IGamePluginService;
 import dk.sdu.mmmi.bomberman.commonplayer.Player;
 
+
 public class PlayerPlugin implements IGamePluginService {
     private Entity player;
     public PlayerPlugin() {
@@ -37,6 +38,7 @@ public class PlayerPlugin implements IGamePluginService {
         
         return playerShip;
     }
+
     @Override
     public void stop(GameData gameData, World world) {
         // Remove entities

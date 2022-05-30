@@ -4,6 +4,7 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
@@ -44,8 +45,8 @@ public class Game implements ApplicationListener {
     public void init() {
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
         cfg.title = "Bomberman";
-        cfg.width = 800;
-        cfg.height = 600;
+        cfg.width = 480;
+        cfg.height = 416;
         cfg.resizable = false;
 
         new LwjglApplication(this, cfg);
@@ -54,10 +55,10 @@ public class Game implements ApplicationListener {
     @Override
     public void create() {
         cam = new OrthographicCamera();
-        cam.setToOrtho(false, 832, 704);
+        cam.setToOrtho(false, 480, 416);
         cam.update();
         sr = new ShapeRenderer();
-        String[] mapFiles = {"assets/ColMap.tmx", "assets/plain.tsx", "assets/Shadow.tsx", "assets/[64x64] Dungeon Bricks Plain.png", "assets/[64x64] Dungeon Bricks Shadow.png"};
+        String[] mapFiles = {"assets/BombermanMap.tmx", "assets/background.png", "assets/bomb.png", "assets/explosion.png"};
         FileLoader.loadFiles(mapFiles, getClass());
         tiledMap = new TmxMapLoader().load(mapFiles[0]);
         renderer = new OrthogonalTiledMapRenderer(tiledMap);
@@ -72,6 +73,10 @@ public class Game implements ApplicationListener {
 
     @Override
     public void render() {
+        // clear screen (black)
+        Gdx.gl.glClearColor(0, 0, 0, 1);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+
         renderer.setView(cam);
         renderer.render();
         cam.update();
