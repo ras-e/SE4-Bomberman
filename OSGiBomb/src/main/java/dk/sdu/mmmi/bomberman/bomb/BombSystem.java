@@ -16,7 +16,6 @@ import static java.lang.Math.sin;
 
 public class BombSystem implements IEntityProcessingService, BombSPI {
 
-
     @Override
     public void process(GameData gameData, World world) {
 
@@ -46,6 +45,14 @@ public class BombSystem implements IEntityProcessingService, BombSPI {
         float speed = 350;
 
         Entity bomb = new Bomb();
+
+        /* Once the AssetManager works, out comment below:
+        GameImage img = new GameImage("items/bomb.png", 20, 20);
+        bomb.setImage(img);
+        float bx = (float) (x - (image.getWidth() / 2 + 40) * cos(radians));
+        float by = (float) (y - (image.getWidth() / 2 + 40) * sin(radians));
+        bomb.add(new PositionPart(bx + (image.getWidth() / 2), by + (image.getHeight() / 2), radians));
+        */
         bomb.setRadius(2);
 
         float bx = (float) cos(radians) * bomberman.getRadius() * bomberman.getRadius();

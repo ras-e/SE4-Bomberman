@@ -39,7 +39,7 @@ public class BombProcessor implements IEntityProcessingService {
 
             timerpart.reduceExpiration(gameData.getDelta());
 
-            //If duration is exceeded, remove the bullet.
+            //If duration is exceeded, remove the bomb.
          //   if (timerpart.getExpiration() < 0 || movingpart.getIsOut()) {
            //     world.removeEntity(b);
             }
