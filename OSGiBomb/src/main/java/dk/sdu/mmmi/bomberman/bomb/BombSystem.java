@@ -9,7 +9,7 @@ import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.TimerPart;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.bomberman.commonbomb.Bomb;
-import dk.sdu.mmmi.bomberman.commonbomb.BombSPI;
+import dk.sdu.mmmi.bomberman.common.services.BombSPI;
 
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
