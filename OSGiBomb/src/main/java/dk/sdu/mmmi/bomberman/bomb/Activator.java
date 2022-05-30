@@ -2,7 +2,7 @@ package dk.sdu.mmmi.bomberman.bomb;
 
 
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.bomberman.commonbomb.BombSPI;
+import dk.sdu.mmmi.bomberman.common.services.BombSPI;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
