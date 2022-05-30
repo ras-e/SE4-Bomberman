@@ -38,7 +38,7 @@
     <!--
          | some example OSGi runtime properties
         -->
-    <org.osgi.service.http.port>8080</org.osgi.service.http.port>
+    <org.osgi.service.http.port>5050</org.osgi.service.http.port>
     <org.osgi.service.http.port.secure>8443</org.osgi.service.http.port.secure>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -75,7 +75,7 @@
                     -->
           <provision>
             <param>--platform=felix</param>
-            <param>--vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</param>
+            <param>--vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=3030</param>
           </provision>
         </configuration>
         <executions>

@@ -6,7 +6,8 @@ import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.PositionPart;
-import dk.sdu.mmmi.bomberman.commonenemy.Enemy;
+
+import dk.sdu.mmmi.bomberman.common.enemy.Enemy;
 import dk.sdu.mmmi.bomberman.common.services.IEntityProcessingService;
 
 public class EnemyProcess implements IEntityProcessingService {
@@ -28,7 +29,7 @@ public class EnemyProcess implements IEntityProcessingService {
         //Checks whether the player is dead and consequently removes them if so
         if (lifePart.isDead()){
             world.removeEntity(entity);
-            gameData.setPVictory(true);
+          //  gameData.setPVictory(true);
         }
     }
 }

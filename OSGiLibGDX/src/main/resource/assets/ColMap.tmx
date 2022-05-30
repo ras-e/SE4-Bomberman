@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="13" height="11" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="72">
+ <tileset firstgid="1" source="Shadow.tsx"/>
+ <tileset firstgid="57" source="plain.tsx"/>
+ <layer id="1" name="Background" width="13" height="11">
+  <data encoding="csv">
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10,
+10,10,10,10,10,10,10,10,10,10,10,10,10
+</data>
+ </layer>
+ <layer id="2" name="Walls" width="13" height="11">
+  <data encoding="csv">
+66,66,66,66,66,66,66,66,66,66,66,66,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,0,66,0,66,0,66,0,66,0,66,0,66,
+66,0,0,0,0,0,0,0,0,0,0,0,66,
+66,66,66,66,66,66,66,66,66,66,66,66,66
+</data>
+ </layer>
+ <objectgroup id="3" name="GameObjects" visible="0" locked="1">
+  <properties>
+   <property name="blocked" type="object" value="0"/>
+  </properties>
+  <object id="2" x="123.283" y="130.18" width="68.9695" height="62.9347"/>
+  <object id="3" x="256.911" y="129.749" width="68.9695" height="62.9347"/>
+  <object id="4" x="381.056" y="128.025" width="68.9695" height="62.9347"/>
+  <object id="5" x="506.926" y="128.887" width="68.9695" height="62.9347"/>
+  <object id="6" x="641.416" y="128.887" width="68.9695" height="62.9347"/>
+  <object id="7" x="637.106" y="255.618" width="68.9695" height="62.9347"/>
+  <object id="8" x="507.788" y="254.756" width="68.9695" height="62.9347"/>
+  <object id="9" x="379.332" y="255.618" width="68.9695" height="62.9347"/>
+  <object id="10" x="250.877" y="255.618" width="68.9695" height="62.9347"/>
+  <object id="11" x="124.145" y="254.756" width="68.9695" height="62.9347"/>
+  <object id="12" x="123.283" y="384.074" width="68.9695" height="62.9347"/>
+  <object id="13" x="254.325" y="386.66" width="68.9695" height="62.9347"/>
+  <object id="14" x="381.919" y="385.798" width="68.9695" height="62.9347"/>
+  <object id="15" x="512.099" y="385.798" width="68.9695" height="62.9347"/>
+  <object id="16" x="637.106" y="386.66" width="68.9695" height="62.9347"/>
+  <object id="17" x="633.657" y="512.53" width="68.9695" height="62.9347"/>
+  <object id="18" x="505.202" y="512.53" width="68.9695" height="62.9347"/>
+  <object id="19" x="376.746" y="512.53" width="68.9695" height="62.9347"/>
+  <object id="20" x="248.29" y="511.667" width="68.9695" height="62.9347"/>
+  <object id="21" x="122.421" y="512.53" width="68.9695" height="62.9347"/>
+  <object id="22" name="blocked4" x="0.862119" y="-0.862119" width="831.082" height="63.7968"/>
+  <object id="25" name="blocked3" x="0.862119" y="640.554" width="830.22" height="62.9347"/>
+  <object id="26" name="blocked2" x="0" y="64.6589" width="63.7968" height="574.171"/>
+  <object id="27" name="blocked1" x="769.01" y="62.9347" width="62.0725" height="576.757"/>
+ </objectgroup>
+ <objectgroup id="5" name="Barrels" visible="0">
+  <properties>
+   <property name="breakable" type="object" value="0"/>
+  </properties>
+  <object id="28" name="breakable" x="193.977" y="64.6589" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="29" name="breakable" x="258.636" y="63.3657" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="30" name="breakable" x="320.708" y="65.0899" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="31" name="breakable" x="384.505" y="63.3657" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="32" name="breakable" x="513.823" y="64.2278" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="33" name="breakable" x="641.416" y="64.2278" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="34" name="breakable" x="577.62" y="130.611" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="35" name="breakable" x="447.44" y="130.611" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="36" name="breakable" x="450.026" y="192.684" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="37" name="breakable" x="576.757" y="193.546" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="38" name="breakable" x="576.757" y="257.342" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="39" name="breakable" x="705.213" y="258.205" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="40" name="breakable" x="704.351" y="322.001" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="41" name="breakable" x="639.692" y="322.001" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="42" name="breakable" x="706.937" y="388.384" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="43" name="breakable" x="575.895" y="452.181" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="44" name="breakable" x="639.692" y="579.775" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="45" name="breakable" x="575.895" y="579.775" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="46" name="breakable" x="511.236" y="578.913" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="47" name="breakable" x="448.302" y="512.53" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="48" name="breakable" x="447.44" y="257.342" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="49" name="breakable" x="450.026" y="324.588" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="50" name="breakable" x="508.65" y="320.277" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="51" name="breakable" x="446.578" y="383.212" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="52" name="breakable" x="386.229" y="573.74" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="53" name="breakable" x="381.919" y="447.871" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="54" name="breakable" x="383.643" y="191.821" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="55" name="breakable" x="321.57" y="190.959" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="56" name="breakable" x="254.325" y="191.821" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="57" name="breakable" x="196.563" y="193.546" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="58" name="breakable" x="63.7968" y="191.821" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="59" name="breakable" x="68.1074" y="253.894" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="60" name="breakable" x="193.115" y="253.894" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="61" name="breakable" x="193.977" y="320.277" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="62" name="breakable" x="325.019" y="322.001" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="63" name="breakable" x="321.57" y="389.247" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="64" name="breakable" x="325.881" y="445.284" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="65" name="breakable" x="322.432" y="574.602" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="66" name="breakable" x="249.152" y="572.016" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="67" name="breakable" x="258.636" y="450.457" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="68" name="breakable" x="191.39" y="452.181" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="69" name="breakable" x="193.977" y="515.978" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="70" name="breakable" x="127.594" y="580.637" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+  <object id="71" name="breakable" x="65.521" y="389.247" width="60.3483" height="62.9347">
+   <properties>
+    <property name="breakable" type="object" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="6" name="BarrelLayer" width="13" height="11">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,105,105,105,105,0,105,0,105,0,0,
+0,0,0,0,0,0,0,105,0,105,0,0,0,
+0,105,0,105,105,105,105,105,0,105,0,0,0,
+0,105,0,105,0,0,0,105,0,105,0,105,0,
+0,0,0,105,0,105,0,105,105,0,105,105,0,
+0,105,0,0,0,105,0,105,0,0,0,105,0,
+0,0,0,105,105,105,105,0,0,105,0,0,0,
+0,0,0,105,0,0,0,105,0,0,0,0,0,
+0,0,105,0,105,105,105,0,105,105,105,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
