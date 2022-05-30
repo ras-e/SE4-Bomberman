@@ -43,6 +43,10 @@ public class GameData {
         return keys;
     }
 
+    public void setDelta(float delta) {
+        this.delta = delta;
+    }
+
     public float getDelta() {
         return delta;
     }

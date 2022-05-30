@@ -10,6 +10,7 @@ public class MovingPart implements EntityPart {
     private float acceleration = 2F;
     private float maxSpeed = 0.1F;
     private float rotationSpeed;
+    private boolean up;
 
     //Collision detection
     private float lastX, lastY;
@@ -38,7 +39,12 @@ public class MovingPart implements EntityPart {
         this.rotationSpeed = rotationSpeed;
     }
 
-    public void controls(Entity entity, float dt) {
+
+    public void setUp(boolean up) {
+        this.up = up;
+    }
+
+    public void controls(Entity entity) {
         PositionPart part = entity.getPart(PositionPart.class);
 
         if (Gdx.input.isKeyPressed(Input.Keys.W)) {
@@ -67,7 +73,7 @@ public class MovingPart implements EntityPart {
         float y = positionPart.getY();
         float radians = positionPart.getRadians();
         final float dt = Gdx.graphics.getDeltaTime()*10;
-        controls(entity,dt);
+        controls(entity);
     }
 
     public boolean isInWalls() {

@@ -4,151 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="">
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/OSGiCore/src/main/resources/assets/ColMap.tmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonEnemy/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonEnemy/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonMap/osgi.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonMap/osgi.bnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommonMap/src/main/java/dk/sdu/mmmi/bomberman/commonmap/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommonMap/src/main/java/dk/sdu/mmmi/bomberman/commonmap/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiMap/src/main/java/dk/sdu/mmmi/bomberman/OSGiMap/MapPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiMap/src/main/java/dk/sdu/mmmi/bomberman/OSGiMap/MapPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiAsteroidsPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiCore_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiEnemy_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/com.diffplug.osgi.extension.sun.misc_0.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/com.diffplug.osgi.extension.sun.reflect_0.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.Bomberman.build.OSGiLibGDX_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiAI_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCollision_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonAI_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonBomb_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonEnemy_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonMap_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiMap_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiPathfinder_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.bomb_1.0.0.SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/downloaded_bundles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/org.apache.felix.gogo.command_0.16.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/org.apache.felix.gogo.runtime_0.16.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/org.apache.felix.gogo.shell_0.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/org.apache.felix.main_5.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/org.apache.felix.scr_1.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/osgi.core_4.3.0.201102171602.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/deploy-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle0/bundle.id" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle1/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle1/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle1/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle10/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle10/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle10/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle11/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle11/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle11/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle12/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle12/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle12/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/com.diffplug.osgi.extension.sun.misc-0.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/com.diffplug.osgi.extension.sun.reflect-0.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-backend-lwjgl-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-box2d-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-box2d-platform-1.6.3-natives-desktop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-freetype-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-freetype-platform-1.6.3-natives-desktop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-jnigen-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-platform-1.6.3-natives-desktop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/gdx-platform-1.6.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/javaparser-1.0.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jinput-2.0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jinput-platform-2.0.5-natives-linux.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jinput-platform-2.0.5-natives-osx.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jinput-platform-2.0.5-natives-windows.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jlayer-1.0.1-gdx.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jorbis-0.0.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/jutils-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/lwjgl-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/lwjgl-platform-2.9.2-natives-linux.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/lwjgl-platform-2.9.2-natives-osx.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/lwjgl-platform-2.9.2-natives-windows.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar-embedded/lwjgl_util-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle16/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle16/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle16/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle17/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle17/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle17/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle2/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle2/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle2/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle20/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle20/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle20/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle21/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle21/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle21/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle3/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle3/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle3/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle4/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle4/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle4/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/bundle.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/revision.location" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/config.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/stuff/jens.png" beforeDir="false" />
-=======
+    <list default="true" id="5a0118d5-ef8e-4648-9553-6cff89782d13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/test/dk/sdu/mmmi/bomberman/OSGiPlayer/PlayerControlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_03_2022_10_54__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/TexturePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/TexturePart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiAsteroidsPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/OSGiAsteroidsPlayer_1.0.0.SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/GameData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCommon/src/main/java/dk/sdu/mmmi/bomberman/common/data/entityparts/MovingPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/core/managers/GameInputProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCore/src/main/java/dk/sdu/mmmi/bomberman/core/managers/GameInputProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiPlayer/src/main/java/dk.sdu.mmmi.bomberman.OSGiPlayer/PlayerControlSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiCore_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/OSGiCore_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/OSGiPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/OSGiPlayer_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.Bomberman.build.OSGiLibGDX_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.Bomberman.build.OSGiLibGDX_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiAI_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiAI_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCollision_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCollision_1.0.0.SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonAI_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonAI_1.0.0.SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonBomb_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonBomb_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonEnemy_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonEnemy_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonMap_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonMap_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonPlayer_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommonPlayer_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiCommon_1.0.0.SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiPathfinder_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.OSGiPathfinder_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.bomb_1.0.0.SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/bundles/dk.sdu.mmmi.bomberman.bomb_1.0.0.SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/deploy-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/runner/deploy-pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle1/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle1/bundle.info" afterDir="false" />
@@ -160,10 +42,8 @@
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle12/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle12/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/version0.0/bundle.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/version0.0/revision.location" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle13/version0.0/revision.location" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/version0.0/bundle.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/version0.0/revision.location" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle14/version0.0/revision.location" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle15/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle16/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle16/bundle.info" afterDir="false" />
@@ -171,34 +51,20 @@
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle17/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle17/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/version0.0/bundle.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/version0.0/revision.location" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle18/version0.0/revision.location" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/version0.0/bundle.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/version0.0/revision.location" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle19/version0.0/revision.location" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle2/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle2/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle20/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle20/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle21/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle21/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle3/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle3/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle4/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle4/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle5/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle6/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle7/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/bundle.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle8/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/bundle.info" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/bundle.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/cache/runner/bundle9/version0.0/bundle.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runner/felix/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/runner/felix/config.ini" afterDir="false" />
->>>>>>> Stashed changes
-=======
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collision/CollisionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/OSGiCollision/src/main/java/dk/sdu/mmmi/bomberman/collision/CollisionProcessor.java" afterDir="false" />
->>>>>>> Collision-Wall
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,239 +74,100 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Bomb" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="GitToolBoxStore">
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1652559461" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="26mdBmTd4iUBZWZUUFVN2pqQvTC" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="29sY2HYRWTDWWvFE4Fd6GRPx5GN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/OSGiCollision/src/main/resources/META-INF" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.45303327" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\GitProjects\SE4-Bomberman\OSGiCollision\src\main\resources\META-INF" />
-      <recent name="C:\GitProjects\SE4-Bomberman" />
-=======
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/janpe20/Desktop/SE4-Bomberman/OSGiPlayer/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OSGiPlayer/src/main/resources" />
->>>>>>> Stashed changes
-      <recent name="$PROJECT_DIR$/OSGiPlayer/src/main/resources/Assets" />
-      <recent name="C:\GitProjects\SE4-Bomberman\OSGiLibGDX\src\main\resource\fonts" />
-      <recent name="D:\GitProjects\SE4-Bomberman\OSGICommon\src\main\resources" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="$PROJECT_DIR$/runner/stuff" />
-      <recent name="$PROJECT_DIR$/runner" />
-=======
-      <recent name="D:\GitProjects\SE4-Bomberman\OSGiCore\src\main\resources\assets" />
->>>>>>> Collision-Wall
-      <recent name="$PROJECT_DIR$/OSGiCommon/src/main/resources" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dk.sdu.mmmi.bomberman.OSGiPlayer" />
     </key>
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean" />
-      <command value="mvn install" />
-      <command value="mvn clean install" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Remote JVM Debug.debugger">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+  <component name="RunManager" selected="JUnit.PlayerTest">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OSGiPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.sdu.mmmi.bomberman.OSGiPlayer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dk.sdu.mmmi.bomberman.OSGiPlayer" />
+      <option name="MAIN_CLASS_NAME" value="dk.sdu.mmmi.bomberman.OSGiPlayer.PlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="OSGiMap" />
+    <configuration name="PlayerTest.movementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OSGiPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.sdu.mmmi.bomberman.OSGiPlayer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dk.sdu.mmmi.bomberman.OSGiPlayer" />
+      <option name="MAIN_CLASS_NAME" value="dk.sdu.mmmi.bomberman.OSGiPlayer.PlayerTest" />
+      <option name="METHOD_NAME" value="movementTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="OSGiMap" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="LiferayDockerServerConfiguration" factoryName="Liferay Docker Server">
-      <option name="passParentEnvironments" value="true" />
-      <option name="workspaceLocation" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="LiferayServerConfiguration" factoryName="Liferay Server">
-      <option name="alternativeJrePath" value="" />
-      <option name="alternativeJrePathEnabled" value="true" />
-      <option name="buildType" value="" />
-      <option name="bundleLocation" value="" />
-      <option name="developerMode" value="true" />
-      <option name="gogoShellPort" value="11311" />
-      <option name="passParentEnvironments" value="true" />
-      <option name="vmParameters" value="-Xmx2560m" />
-      <module name="OSGiMap" />
-      <method v="2">
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration name="Bomberman [pax:provision]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="pax:provision" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="debugger" type="Remote">
-      <module name="Bomberman" />
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="1044" />
-      <option name="AUTO_RESTART" value="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1044" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Maven.Bomberman [pax:provision]" />
-      <item itemvalue="Remote JVM Debug.debugger" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.movementTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95afa523-489f-437d-a609-ee33f14f753e" name="Changes" comment="" />
-      <created>1648032571097</created>
+      <changelist id="5a0118d5-ef8e-4648-9553-6cff89782d13" name="Changes" comment="" />
+      <created>1653903059116</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648032571097</updated>
-      <workItem from="1648032576253" duration="571000" />
-      <workItem from="1648061940734" duration="5397000" />
-      <workItem from="1648068869398" duration="7009000" />
-      <workItem from="1648077171980" duration="24000" />
-      <workItem from="1648078597701" duration="684000" />
-      <workItem from="1648150282395" duration="288000" />
-      <workItem from="1649060047339" duration="9116000" />
-      <workItem from="1649226563431" duration="168000" />
-      <workItem from="1649231428057" duration="79000" />
-      <workItem from="1649236902496" duration="27000" />
-      <workItem from="1649237173753" duration="27000" />
-      <workItem from="1650866252390" duration="17000" />
-      <workItem from="1650866284726" duration="6921000" />
-      <workItem from="1651564920984" duration="117000" />
-      <workItem from="1651574002436" duration="22000" />
-      <workItem from="1651655071054" duration="266000" />
-      <workItem from="1651826912874" duration="385000" />
-      <workItem from="1652171992564" duration="3366000" />
-      <workItem from="1652429910156" duration="2230000" />
-      <workItem from="1652555755857" duration="3590000" />
-      <workItem from="1652601538845" duration="14301000" />
+      <updated>1653903059116</updated>
+      <workItem from="1653903066489" duration="456000" />
+      <workItem from="1653903551899" duration="11823000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.facetType" implementationName="Osmorc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -453,21 +180,9 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SE4_Bomberman$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1653912811932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dk.sdu.mmmi.bomberman.OSGiPlayer.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -2,6 +2,7 @@ package dk.sdu.mmmi.bomberman.core.managers;
 
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
+import dk.sdu.mmmi.bomberman.Game;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
 import dk.sdu.mmmi.bomberman.common.data.GameKeys;
 

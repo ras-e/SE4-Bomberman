@@ -2,6 +2,7 @@ package dk.sdu.mmmi.bomberman.OSGiPlayer;
 
 import dk.sdu.mmmi.bomberman.common.data.Entity;
 import dk.sdu.mmmi.bomberman.common.data.GameData;
+import dk.sdu.mmmi.bomberman.common.data.GameKeys;
 import dk.sdu.mmmi.bomberman.common.data.World;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.bomberman.common.data.entityparts.MovingPart;
@@ -28,6 +29,8 @@ public class PlayerControlSystem implements IEntityProcessingService {
             movingPart.process(gameData, player);
             positionPart.process(gameData, player);
             lifePart.process(gameData, player);
+
+            movingPart.setUp(gameData.getKeys().isDown(GameKeys.UP));
 
             updateShape(player);
         }

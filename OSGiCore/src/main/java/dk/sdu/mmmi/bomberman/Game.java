@@ -23,13 +23,14 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 
-public class Game implements ApplicationListener {
+public class
+Game implements ApplicationListener {
 
     TiledMap tiledMap;
     OrthographicCamera cam;
     OrthogonalTiledMapRenderer renderer;
     public World world = new World();
-    GameData gameData = new GameData();
+    private final GameData gameData = new GameData();
     private SpriteBatch textureSpriteBatch;
     private static Queue<Runnable> gdxThreadTasks = new LinkedList<>();
     private static final List<IEntityProcessingService> entityProcessorList = new CopyOnWriteArrayList<>();
@@ -74,6 +75,7 @@ public class Game implements ApplicationListener {
     public void render() {
         renderer.setView(cam);
         renderer.render();
+        gameData.setDelta(Gdx.graphics.getDeltaTime());
         cam.update();
         gameData.getKeys().update();
         update();
