@@ -81,8 +81,10 @@ public class Game implements ApplicationListener {
         renderer.render();
         cam.update();
         gameData.getKeys().update();
+
         update();
         draw();
+
     }
 
     private void update() {
@@ -98,8 +100,8 @@ public class Game implements ApplicationListener {
 
     public void draw() {
         for (Entity entity : world.getEntities()) {
-
             sr.begin(ShapeRenderer.ShapeType.Line);
+
 
             float[] shapex = entity.getShapeX();
             float[] shapey = entity.getShapeY();
@@ -112,6 +114,7 @@ public class Game implements ApplicationListener {
             }
 
             sr.end();
+
         }
     }
 
