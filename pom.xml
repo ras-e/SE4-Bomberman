@@ -31,6 +31,7 @@
     <module>OSGiMap</module>
     <module>OSGiCommonMap</module>
     <module>OSGiCommonPlayer</module>
+    <module>OSGiCommonBomb</module>
   </modules>
 
   <build>
@@ -42,7 +43,7 @@
         <configuration>
           <provision>
             <param>--platform=felix</param>
-            <param>--vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005</param>
+            <param>--vmOptions=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=3030</param>
           </provision>
         </configuration>
       </plugin>
