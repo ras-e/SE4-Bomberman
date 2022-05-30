@@ -24,7 +24,7 @@ public class BombSystem implements IEntityProcessingService, BombSPI {
             PositionPart positionPart = bomb.getPart(PositionPart.class);
             MovingPart movingPart = bomb.getPart(MovingPart.class);
             TimerPart timerPart = bomb.getPart(TimerPart.class);
-            movingPart.setUp(true);
+//            movingPart.setUp(true);
             if (timerPart.getExpiration() < 0) {
                 world.removeEntity(bomb);
             }
