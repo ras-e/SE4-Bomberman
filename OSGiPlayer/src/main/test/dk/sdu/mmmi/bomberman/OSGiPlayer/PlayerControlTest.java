@@ -36,7 +36,7 @@ class PlayerTest {
         Entity testEntity = world.getEntities(Player.class).get(0);
         PositionPart positionPart = testEntity.getPart(PositionPart.class);
         float currentY = positionPart.getY();
-        float currentX = positionPart.getX();
+        //float currentX = positionPart.getX();
         MovingPart movingPart = testEntity.getPart(MovingPart.class);
         gameData.getKeys().setKey(0, true);
         movingPart.setUp(gameData.getKeys().isDown(GameKeys.UP));
