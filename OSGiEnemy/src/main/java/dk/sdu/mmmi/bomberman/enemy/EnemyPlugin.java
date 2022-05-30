@@ -43,9 +43,8 @@ public class EnemyPlugin implements IGamePluginService {
         float y = gameData.getDisplayHeight() / 2;
         float radians = 3.1415f / 2;
         enemyBomberman.add(new LifePart(1));
-      // enemyBomberman.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
-       // enemyBomberman.add(new PositionPart(x, y, radians));
-
+        // enemyBomberman.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
+        // enemyBomberman.add(new PositionPart(x, y, radians));
 
         return enemyBomberman;
     }

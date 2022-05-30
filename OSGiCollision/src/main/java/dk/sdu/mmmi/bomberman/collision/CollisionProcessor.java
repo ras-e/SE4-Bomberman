@@ -41,32 +41,34 @@ public class CollisionProcessor implements IPostEntityProcessingService {
         //TODO: Damage logic (Bomb), additionally add logic for rectangle so that moving through bomb is not possible.
 
         //Cannot move through walls using rectangle overlaps
-
         //Entity collision code
         for (Entity entity : world.getEntities()) {
             for (Entity collisionDetection : world.getEntities()) {
-                // get life parts on all entities
+                // get parts on entities
                 LifePart entityLife = entity.getPart(LifePart.class);
                 MovingPart entityMoving = entity.getPart(MovingPart.class);
                 PositionPart entityPosition = entity.getPart(PositionPart.class);
 
-
+                //Loop through the objects and set them as rectangles
                 for (RectangleMapObject rectangleObject : objects.getByType(RectangleMapObject.class)) {
                     Rectangle rectangle = rectangleObject.getRectangle();
+                    //Give entity a defined rectangle
                     Rectangle entityRectangle = new Rectangle(entityPosition.getX(), entityPosition.getY(), 35, 35);
-
+                    //If entity overlaps , setIsInWalls to true
                     if (Intersector.overlaps(rectangle, entityRectangle)) {
                         entityMoving.setIsInWalls(true);
                     }
                 }
+                //Loop through the objects and set them as rectangles
                 for (RectangleMapObject rectangleObject : border.getByType(RectangleMapObject.class)) {
                     Rectangle rectangle = rectangleObject.getRectangle();
                     Rectangle entityRectangle = new Rectangle(entityPosition.getX(), entityPosition.getY(), 35, 35);
-
+                    //If entity overlaps , setIsInWalls to true
                     if (Intersector.overlaps(rectangle, entityRectangle)) {
                         entityMoving.setIsInWalls(true);
                     }
                 }
+                //If in walls, set to last x,y coords
                 if (!entityMoving.isInWalls()) {
                     entityMoving.setLastX(entityPosition.getX());
                     entityMoving.setLastY(entityPosition.getY());

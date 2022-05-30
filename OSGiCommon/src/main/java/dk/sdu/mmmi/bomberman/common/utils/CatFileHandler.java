@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.bomberman.common;
+package dk.sdu.mmmi.bomberman.common.utils;
 
 import com.badlogic.gdx.files.FileHandle;
 

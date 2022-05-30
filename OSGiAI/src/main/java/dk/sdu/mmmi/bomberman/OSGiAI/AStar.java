@@ -1,9 +1,8 @@
-
+package dk.sdu.mmmi.bomberman.OSGiAI;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
-
 
     class AStar {
         private final List<Node> open;

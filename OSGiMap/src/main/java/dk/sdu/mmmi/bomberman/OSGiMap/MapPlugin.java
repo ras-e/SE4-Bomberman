@@ -11,7 +11,7 @@ public class MapPlugin implements IGamePluginService {
     @Override
     public void start(GameData gameData, World world) {
         Entity tiledMap = new Tile();
-        tiledMap.add(new TiledMapPart("/assets/ColMap.tmx"));
+        tiledMap.add(new TiledMapPart("/assets/BombermanMap.tmx"));
         world.addEntity(tiledMap);
     }
 
