@@ -36,14 +36,14 @@ public class MenuState extends GameState{
         FreeTypeFontGenerator generator = new FreeTypeFontGenerator
                 (Gdx.files.internal("fonts/Hyperspace Bold.ttf"));
         FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
-
         //Size of font
         parameter.size = 80;
         //Sets the titleFont to use the custom font
         titleFont = generator.generateFont(parameter);
-
         menuOpt = new String[]{
                 "Play",
+                "Settings",
+                "Help",
                 "Quit",
         };
     }
@@ -107,14 +107,14 @@ public class MenuState extends GameState{
     private void select() {
         // play
         if (current == 0) {
-            getStateManager().setState(StateManager.PLAY);
+            getStateManager().setState(StateManager.MENU);
         } // high scores
         else if (current == 1) {
-            Gdx.app.exit();
-        /*else if (current == 1) {
+            getStateManager().setState(StateManager.PLAY);
+        /*else if (current == 2) {
+            getStateManager().setState(StateManager.SETTINGS);
+        } else if (current == 3) {
             getStateManager().setState(StateManager.HELP);
-        } else if (current == 2) {
-            getStateManager().setState(StateManager.HIGHSCORE);
         } else if (current == 4) {
             Gdx.app.exit();
         }*/
